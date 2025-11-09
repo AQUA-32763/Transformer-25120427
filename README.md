@@ -41,8 +41,8 @@ python AblationExperiment.py
 transformer -main/\
 ├── ablation_images/           # 消融实验可视化图表\
 ├── ablation_results/          # 消融实验详细结果\
-├── Complete_images/           # 完整模型训练可视化图表\
-├── Complete_results/        # 完整模型训练详细结果\
+├── images/           # 基线模型训练可视化图表\
+├── results/        # 基线模型训练详细结果\
 ├── dataset/                 # 训练和测试数据目录\
 ├── save/                    # 模型保存目录（由于预训练文件较大并未上传，运行任意一个代码就能在这个文件夹得到保存好的模型）\
 ├── AblationExperiment.py    # 消融实验代码\
