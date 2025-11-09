@@ -1,0 +1,808 @@
+{
+  "samples": [
+    {
+      "source": "BOS UNK ! EOS",
+      "reference": "干杯!",
+      "translation": "保持！",
+      "bleu_score": 0,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS listen . EOS",
+      "reference": "听着。",
+      "translation": "听着。",
+      "bleu_score": 0.8018339587419306,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS try it . EOS",
+      "reference": "试试吧。",
+      "translation": "试试试。",
+      "bleu_score": 0.2878298075145074,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS no way ! EOS",
+      "reference": "不可能！",
+      "translation": "没有！",
+      "bleu_score": 0.07553919378694879,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS drive safely . EOS",
+      "reference": "安全地驾驶。",
+      "translation": "安全地驾驶。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS wood UNK . EOS",
+      "reference": "木头会漂浮。",
+      "translation": "木头会低。",
+      "bleu_score": 0.37949693437209453,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS be calm . EOS",
+      "reference": "冷静点。",
+      "translation": "冷静点。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS thanks UNK . EOS",
+      "reference": "还是要说谢谢的。",
+      "translation": "谢谢谢谢你的感谢。",
+      "bleu_score": 0.1299644575687237,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS no way ! EOS",
+      "reference": "没门！",
+      "translation": "没有！",
+      "bleu_score": 0.13910705966982442,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS shut up ! EOS",
+      "reference": "闭嘴！",
+      "translation": "闭嘴！",
+      "bleu_score": 0.8018339587419306,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS no problem ! EOS",
+      "reference": "没问题！",
+      "translation": "没问题。",
+      "bleu_score": 0.5638669944002701,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS come along . EOS",
+      "reference": "快点。",
+      "translation": "跟你一起来。",
+      "bleu_score": 0.055268821162826956,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS why not ? EOS",
+      "reference": "为什么不？",
+      "translation": "为什么不？",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS move quietly . EOS",
+      "reference": "轻轻地移动。",
+      "translation": "轻轻地移动了。",
+      "bleu_score": 0.7013279657834374,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS nobody asked . EOS",
+      "reference": "没人问过。",
+      "translation": "没人问过。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS someone called . EOS",
+      "reference": "有人打电话来。",
+      "translation": "有人打电话给他。",
+      "bleu_score": 0.5985674423746434,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS many thanks . EOS",
+      "reference": "非常感谢！",
+      "translation": "很少，谢谢谢谢。",
+      "bleu_score": 0.04266417714290623,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS stop reading . EOS",
+      "reference": "别再念了。",
+      "translation": "别再念了。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS stop UNK . EOS",
+      "reference": "别再埋怨了。",
+      "translation": "别再埋怨了。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS get real . EOS",
+      "reference": "醒醒吧。",
+      "translation": "当我真的。",
+      "bleu_score": 0.06574447907286406,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS stop UNK . EOS",
+      "reference": "别再傻看着。",
+      "translation": "别再埋怨了。",
+      "bleu_score": 0.17686984272214148,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS feel this . EOS",
+      "reference": "来感受一下这个。",
+      "translation": "感觉到这一点。",
+      "bleu_score": 0.07250350604336299,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS everybody lies . EOS",
+      "reference": "每个人都会说谎。",
+      "translation": "每个人都会说谎。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS get down ! EOS",
+      "reference": "趴下！",
+      "translation": "趴下！",
+      "bleu_score": 0.8018339587419306,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS god exists . EOS",
+      "reference": "上帝存在。",
+      "translation": "上帝存在。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS we know . EOS",
+      "reference": "我们知道。",
+      "translation": "我们知道。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS she felt blue . EOS",
+      "reference": "她感到UNKUNK不乐的。",
+      "translation": "她感到了天的红色毛裙。",
+      "bleu_score": 0.1702953595546261,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS how are you ? EOS",
+      "reference": "你们好吗？",
+      "translation": "你们呢？",
+      "bleu_score": 0.22416207948359007,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS clean your room . EOS",
+      "reference": "清扫你的房间。",
+      "translation": "把你的房间打扫房间。",
+      "bleu_score": 0.4324164372797292,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS let me think . EOS",
+      "reference": "让我想一想。",
+      "translation": "让我想一想。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS the phone rang . EOS",
+      "reference": "电话正在响。",
+      "translation": "电话正在响。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS can anyone drive ? EOS",
+      "reference": "有人会开车吗？",
+      "translation": "有人会开车吗？",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS jesus loves you . EOS",
+      "reference": "耶稣爱你。",
+      "translation": "耶稣爱你。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS tom UNK approval . EOS",
+      "reference": "汤姆点头同意。",
+      "translation": "汤姆不错。",
+      "bleu_score": 0.14564538509294817,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS enjoy your holidays . EOS",
+      "reference": "度假愉快！",
+      "translation": "度假过得愉快。",
+      "bleu_score": 0.2071487130441435,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS no one came . EOS",
+      "reference": "没有人来了。",
+      "translation": "没人来了。",
+      "bleu_score": 0.6461572644453879,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS you must choose . EOS",
+      "reference": "你必须选择。",
+      "translation": "你必须选择。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS are you ready ? EOS",
+      "reference": "您准备好了吗？",
+      "translation": "你们准备好了吗？",
+      "bleu_score": 0.7059646708956375,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS tom was full . EOS",
+      "reference": "汤姆饱了。",
+      "translation": "汤姆饱了。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS he is poor . EOS",
+      "reference": "他很穷。",
+      "translation": "他不好。",
+      "bleu_score": 0.10988714801277011,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS she turned eighty-one . EOS",
+      "reference": "她八十一岁了。",
+      "translation": "她成为了一外八十一岁。",
+      "bleu_score": 0.3496769592339988,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS keep the change ! EOS",
+      "reference": "不用找零钱了。",
+      "translation": "再说！",
+      "bleu_score": 0,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS we 're UNK . EOS",
+      "reference": "我们很保守。",
+      "translation": "我们保持了我们。",
+      "bleu_score": 0.14649147584768704,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS i 'm ill . EOS",
+      "reference": "我生病了。",
+      "translation": "我病了。",
+      "bleu_score": 0.4926954462837668,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS is tom well ? EOS",
+      "reference": "汤姆还好吧？",
+      "translation": "汤姆好吗？",
+      "bleu_score": 0.199586480172148,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS he just arrived . EOS",
+      "reference": "他刚到。",
+      "translation": "他刚到了到达到。",
+      "bleu_score": 0.2988562806354213,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS is everybody ready ? EOS",
+      "reference": "所有人都准备好了吗？",
+      "translation": "每个人都准备好了吗？",
+      "bleu_score": 0.7742694129875983,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS i often hiccup . EOS",
+      "reference": "我经常打嗝。",
+      "translation": "我经常打嗝。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS she likes oranges . EOS",
+      "reference": "她喜欢橙子。",
+      "translation": "她喜欢柳橙。",
+      "bleu_score": 0.40378422324121455,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS nobody was injured . EOS",
+      "reference": "没有人受伤。",
+      "translation": "没有人受伤。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS who likes beans ? EOS",
+      "reference": "谁喜欢豆子？",
+      "translation": "谁喜欢豆子？",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS tom runs fast . EOS",
+      "reference": "汤姆跑得快。",
+      "translation": "汤姆跑得快。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS they want more . EOS",
+      "reference": "他们想要更多。",
+      "translation": "他们想要更多。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS tom was bullied . EOS",
+      "reference": "汤姆被欺负了。",
+      "translation": "汤姆被欺负了。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS that 's life . EOS",
+      "reference": "这就是生活。",
+      "translation": "那是生活的人生活。",
+      "bleu_score": 0.30122782359972916,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS see you around . EOS",
+      "reference": "再见！",
+      "translation": "看见你。",
+      "bleu_score": 0.0832788853447679,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS now i remember . EOS",
+      "reference": "现在我想起来了。",
+      "translation": "现在我记得了。",
+      "bleu_score": 0.32969320508175326,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS she hated him . EOS",
+      "reference": "她恨他。",
+      "translation": "她恨他。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS tell me again . EOS",
+      "reference": "重新告诉我。",
+      "translation": "再给我一次。",
+      "bleu_score": 0.07292764674344251,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS tom follows orders . EOS",
+      "reference": "汤姆服从命令。",
+      "translation": "服从他做了令人难命。",
+      "bleu_score": 0.12786425558372067,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS do it now . EOS",
+      "reference": "现在就做。",
+      "translation": "现在就是不用了。",
+      "bleu_score": 0.26462752166987974,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS foxes eat UNK . EOS",
+      "reference": "狐狸吃母鸡。",
+      "translation": "狐狸吃母鸡。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS i almost won . EOS",
+      "reference": "我几乎赢了。",
+      "translation": "我快变了。",
+      "bleu_score": 0.17789167506582698,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS shake my hand . EOS",
+      "reference": "和我握手。",
+      "translation": "和手握手。",
+      "bleu_score": 0.46351860235540515,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS we 're hiding . EOS",
+      "reference": "我们在藏着。",
+      "translation": "我们在藏着。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS i 'm italian . EOS",
+      "reference": "我是义大利人。",
+      "translation": "我是意大利语。",
+      "bleu_score": 0.22648854650862568,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS they hated tom . EOS",
+      "reference": "他们恨汤姆。",
+      "translation": "他们恨汤姆。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS i 'm innocent . EOS",
+      "reference": "我是清白的。",
+      "translation": "我是清白的。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS prices went up . EOS",
+      "reference": "物价上涨。",
+      "translation": "价格上涨。",
+      "bleu_score": 0.46351860235540515,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS that 's great . EOS",
+      "reference": "那真是太好了。",
+      "translation": "那真是一个好人。",
+      "bleu_score": 0.2893336959154495,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS no one knows . EOS",
+      "reference": "没有人知道。",
+      "translation": "没人知道。",
+      "bleu_score": 0.6461572644453879,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS words express thoughts . EOS",
+      "reference": "语言表达思想。",
+      "translation": "语言表达思想。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS do n't cry . EOS",
+      "reference": "别哭。",
+      "translation": "别哭。",
+      "bleu_score": 0.8018339587419306,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS he wears glasses . EOS",
+      "reference": "他戴眼镜。",
+      "translation": "他把眼镜拿着。",
+      "bleu_score": 0.16825703857221574,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS the system worked . EOS",
+      "reference": "系统运行起来了。",
+      "translation": "系统运行了。",
+      "bleu_score": 0.5226898228984498,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS take your time . EOS",
+      "reference": "你可以慢慢来。",
+      "translation": "你的时间比较好。",
+      "bleu_score": 0.05629571924668087,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS he UNK me . EOS",
+      "reference": "他向我施压。",
+      "translation": "他向我施压。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS i know tom . EOS",
+      "reference": "我认识汤姆。",
+      "translation": "我知道汤姆。",
+      "bleu_score": 0.3693051303535175,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS everything went black . EOS",
+      "reference": "一切都变成了黑色。",
+      "translation": "一切都变黑了。",
+      "bleu_score": 0.44239770235950426,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS let them decide . EOS",
+      "reference": "让他们决定。",
+      "translation": "让他们决定。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS are you finished ? EOS",
+      "reference": "你结束了吗？",
+      "translation": "你完成了吗？",
+      "bleu_score": 0.3693051303535175,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS i feel lonely . EOS",
+      "reference": "我觉得很孤独。",
+      "translation": "我很怀疑。",
+      "bleu_score": 0.06838958962129241,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS has anything changed ? EOS",
+      "reference": "有任何事情改变了吗？",
+      "translation": "任何事情都改变了吗？",
+      "bleu_score": 0.7435873414328332,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS every minute UNK . EOS",
+      "reference": "分UNK必争。",
+      "translation": "每一分钟都向",
+      "bleu_score": 0.046784047070580634,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS what a surprise ! EOS",
+      "reference": "太惊喜了!",
+      "translation": "这个紧张字了！",
+      "bleu_score": 0.04803713311155455,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS who built it ? EOS",
+      "reference": "这是谁建的？",
+      "translation": "这是谁建的？",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS he got angry . EOS",
+      "reference": "他生气了。",
+      "translation": "他到达了我生气。",
+      "bleu_score": 0.16016822384783874,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS she UNK him . EOS",
+      "reference": "她看不起他。",
+      "translation": "她使他打了他。",
+      "bleu_score": 0.1499677052644562,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS i hate mosquitoes . EOS",
+      "reference": "我恨蚊子。",
+      "translation": "我恨蚊子。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS he acts quickly . EOS",
+      "reference": "他行动迅速。",
+      "translation": "他行动。",
+      "bleu_score": 0.3837115993815129,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS are they students ? EOS",
+      "reference": "他们是学生吗？",
+      "translation": "他们是学生吗？",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS do you understand ? EOS",
+      "reference": "你明白了吗?",
+      "translation": "你明白了吗？",
+      "bleu_score": 0.788238465735608,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS knowledge is power . EOS",
+      "reference": "知识就是力量。",
+      "translation": "知识就是力量。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS what should i bring ? EOS",
+      "reference": "我该带些什么？",
+      "translation": "我该带些什么？",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    },
+    {
+      "source": "BOS he is no fool . EOS",
+      "reference": "他没疯。",
+      "translation": "他不是傻瓜。",
+      "bleu_score": 0.07292764674344251,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS she went there yesterday . EOS",
+      "reference": "她昨天去那里。",
+      "translation": "她昨天去了那里。",
+      "bleu_score": 0.6351288067453026,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS he climbed the stairs . EOS",
+      "reference": "他爬上了楼梯。",
+      "translation": "他爬上了楼。",
+      "bleu_score": 0.7177078711911252,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS i just heard something . EOS",
+      "reference": "我只是听到了一些消息。",
+      "translation": "我只是听到了我的一些。",
+      "bleu_score": 0.6103120264294462,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS i am from UNK . EOS",
+      "reference": "我来自四国。",
+      "translation": "我从来没有道。",
+      "bleu_score": 0.07454621240274892,
+      "exact_match": 0
+    },
+    {
+      "source": "BOS you broke the rules . EOS",
+      "reference": "你触犯了规则。",
+      "translation": "你触犯了规则。",
+      "bleu_score": 1.0,
+      "exact_match": 1
+    }
+  ],
+  "bleu_scores": [
+    0,
+    0.8018339587419306,
+    0.2878298075145074,
+    0.07553919378694879,
+    1.0,
+    0.37949693437209453,
+    1.0,
+    0.1299644575687237,
+    0.13910705966982442,
+    0.8018339587419306,
+    0.5638669944002701,
+    0.055268821162826956,
+    1.0,
+    0.7013279657834374,
+    1.0,
+    0.5985674423746434,
+    0.04266417714290623,
+    1.0,
+    1.0,
+    0.06574447907286406,
+    0.17686984272214148,
+    0.07250350604336299,
+    1.0,
+    0.8018339587419306,
+    1.0,
+    1.0,
+    0.1702953595546261,
+    0.22416207948359007,
+    0.4324164372797292,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.14564538509294817,
+    0.2071487130441435,
+    0.6461572644453879,
+    1.0,
+    0.7059646708956375,
+    1.0,
+    0.10988714801277011,
+    0.3496769592339988,
+    0,
+    0.14649147584768704,
+    0.4926954462837668,
+    0.199586480172148,
+    0.2988562806354213,
+    0.7742694129875983,
+    1.0,
+    0.40378422324121455,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    0.30122782359972916,
+    0.0832788853447679,
+    0.32969320508175326,
+    1.0,
+    0.07292764674344251,
+    0.12786425558372067,
+    0.26462752166987974,
+    1.0,
+    0.17789167506582698,
+    0.46351860235540515,
+    1.0,
+    0.22648854650862568,
+    1.0,
+    1.0,
+    0.46351860235540515,
+    0.2893336959154495,
+    0.6461572644453879,
+    1.0,
+    0.8018339587419306,
+    0.16825703857221574,
+    0.5226898228984498,
+    0.05629571924668087,
+    1.0,
+    0.3693051303535175,
+    0.44239770235950426,
+    1.0,
+    0.3693051303535175,
+    0.06838958962129241,
+    0.7435873414328332,
+    0.046784047070580634,
+    0.04803713311155455,
+    1.0,
+    0.16016822384783874,
+    0.1499677052644562,
+    1.0,
+    0.3837115993815129,
+    1.0,
+    0.788238465735608,
+    1.0,
+    1.0,
+    0.07292764674344251,
+    0.6351288067453026,
+    0.7177078711911252,
+    0.6103120264294462,
+    0.07454621240274892,
+    1.0
+  ],
+  "exact_matches": 39,
+  "total_samples": 100
+}

@@ -1,0 +1,7 @@
+Experiment,Description,BLEU Score,Exact Match Rate,Best Val Loss
+baseline,基线,0.5875,0.4200,0.0005
+no_positional_encoding,无位置编码,0.5648,0.4000,0.0005
+single_head_attention,单头注意力,0.5075,0.2900,0.0006
+no_residual_connection,无残差连接,0.0411,0.0000,0.0013
+no_layer_norm,无层归一化,0.0314,0.0000,0.0015
+learned_positional_encoding,学习的位置编码,0.5801,0.4000,0.0005

@@ -1,0 +1,5138 @@
+{
+  "baseline": {
+    "train_losses": [
+      0.0048833847189672045,
+      0.003713705428338727,
+      0.003216103026697919,
+      0.002781598384471577,
+      0.0024359321237200486,
+      0.0021957994891206247,
+      0.0019304330846065761,
+      0.0017298258603848735,
+      0.0015791415428377856,
+      0.0014589402677964982,
+      0.001326288712582111,
+      0.0012228772216036218,
+      0.001098030500293494,
+      0.0010303429720638331,
+      0.0009524336474999557,
+      0.0009020699739947404,
+      0.0008290646826461013,
+      0.0007807494813064381,
+      0.0007112004560571678,
+      0.0006491148929960893
+    ],
+    "val_losses": [
+      0.004314589889706514,
+      0.003572090688406957,
+      0.003092762610026563,
+      0.0026660566801882304,
+      0.002407669643755685,
+      0.002105405324070156,
+      0.0018486513261428523,
+      0.0016845414519339943,
+      0.0015386508236396137,
+      0.0014082683507176208,
+      0.0012879131547592,
+      0.001143343524698096,
+      0.001018234156867542,
+      0.000956717656803203,
+      0.0008881624246236518,
+      0.0008259368194344354,
+      0.0007510777575021651,
+      0.0006882677962210454,
+      0.0006350479782361297,
+      0.0005246795277833879
+    ],
+    "best_val_loss": 0.0005246795277833879,
+    "samples": [
+      {
+        "source": "BOS UNK ! EOS",
+        "reference": "\u5e72\u676f!",
+        "translation": "\uff01",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS listen . EOS",
+        "reference": "\u542c\u7740\u3002",
+        "translation": "\u542c\u7740\u4e00\u5207\u3002",
+        "bleu_score": 0.21727738257913376,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS try it . EOS",
+        "reference": "\u8bd5\u8bd5\u5427\u3002",
+        "translation": "\u8bd5\u8bd5\u8bd5\u8bd5\u8bd5\u8bd5\u8bd5\u5427\u3002",
+        "bleu_score": 0.35051583226576016,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u4e0d\u53ef\u80fd\uff01",
+        "translation": "\u4e0d\u53ef\u4ee5\uff01",
+        "bleu_score": 0.2878298075145074,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS drive safely . EOS",
+        "reference": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "translation": "\u5b89\u5168\u5730\u9a7e\u9a76\u6267\u673a\u4f1a\u3002",
+        "bleu_score": 0.5223324594383916,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS wood UNK . EOS",
+        "reference": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "translation": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS be calm . EOS",
+        "reference": "\u51b7\u9759\u70b9\u3002",
+        "translation": "\u51b7\u9759\u9759\u9759\u9759\u9759\u9759\u9759\u9759\u9759\u9759\u9759\u3002",
+        "bleu_score": 0.08051168000582008,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS thanks UNK . EOS",
+        "reference": "\u8fd8\u662f\u8981\u8bf4\u8c22\u8c22\u7684\u3002",
+        "translation": "\u8c22\u8c22\u8c22\u8c22\u8c22\u8c22\u4f60\u7684\u6cbb\u51b7\u3002",
+        "bleu_score": 0.1064033951497061,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u6ca1\u95e8\uff01",
+        "translation": "\u4e0d\u53ef\u4ee5\uff01",
+        "bleu_score": 0.0832788853447679,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shut up ! EOS",
+        "reference": "\u95ed\u5634\uff01",
+        "translation": "\u95ed\u5634\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS no problem ! EOS",
+        "reference": "\u6ca1\u95ee\u9898\uff01",
+        "translation": "\u95ee\u9898\uff01",
+        "bleu_score": 0.5745391373199252,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS come along . EOS",
+        "reference": "\u5feb\u70b9\u3002",
+        "translation": "\u6765\u5427\u3002",
+        "bleu_score": 0.10542343743005167,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS why not ? EOS",
+        "reference": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "translation": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS move quietly . EOS",
+        "reference": "\u8f7b\u8f7b\u5730\u79fb\u52a8\u3002",
+        "translation": "\u8f7b\u677e\u5730\u79fb\u52a8\u3002",
+        "bleu_score": 0.6220921943331938,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody asked . EOS",
+        "reference": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u95ee\u9898\u3002",
+        "bleu_score": 0.19844003011636663,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS someone called . EOS",
+        "reference": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "translation": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS many thanks . EOS",
+        "reference": "\u975e\u5e38\u611f\u8c22\uff01",
+        "translation": "\u8c22\u8c22\u4f60\u7684\u95ee\u9898\u3002",
+        "bleu_score": 0.04803713311155455,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop reading . EOS",
+        "reference": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "translation": "\u522b\u518d\u8bf4\u4e86\u3002",
+        "bleu_score": 0.30012281707917204,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "translation": "\u522b\u518d\u558a\u53eb\u4e86\u3002",
+        "bleu_score": 0.24430833446176173,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get real . EOS",
+        "reference": "\u9192\u9192\u5427\u3002",
+        "translation": "\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192\u9192",
+        "bleu_score": 0.016220543780652224,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u50bb\u770b\u7740\u3002",
+        "translation": "\u522b\u518d\u558a\u53eb\u4e86\u3002",
+        "bleu_score": 0.17686984272214148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS feel this . EOS",
+        "reference": "\u6765\u611f\u53d7\u4e00\u4e0b\u8fd9\u4e2a\u3002",
+        "translation": "\u8fd9\u611f\u89c9\u4e0d\u8212\u670d\u3002",
+        "bleu_score": 0.06462246404202593,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everybody lies . EOS",
+        "reference": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u8bf4\u8c0e\u3002",
+        "bleu_score": 0.6451011383982818,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get down ! EOS",
+        "reference": "\u8db4\u4e0b\uff01",
+        "translation": "\u8db4\u7740\uff01",
+        "bleu_score": 0.13910705966982442,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS god exists . EOS",
+        "reference": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "translation": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS we know . EOS",
+        "reference": "\u6211\u4eec\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she felt blue . EOS",
+        "reference": "\u5979\u611f\u5230UNKUNK\u4e0d\u4e50\u7684\u3002",
+        "translation": "\u5979\u611f\u53d7\u5230\u4e86\u3002",
+        "bleu_score": 0.06179486513194644,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS how are you ? EOS",
+        "reference": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "translation": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS clean your room . EOS",
+        "reference": "\u6e05\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "translation": "\u6253\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "bleu_score": 0.8271628750638266,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let me think . EOS",
+        "reference": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "translation": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS the phone rang . EOS",
+        "reference": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "translation": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS can anyone drive ? EOS",
+        "reference": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "translation": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS jesus loves you . EOS",
+        "reference": "\u8036\u7a23\u7231\u4f60\u3002",
+        "translation": "\u8036\u7a23\u7231\u4f60\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom UNK approval . EOS",
+        "reference": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "translation": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS enjoy your holidays . EOS",
+        "reference": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "translation": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS no one came . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS you must choose . EOS",
+        "reference": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "translation": "\u9009\u62e9\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "bleu_score": 0.7059646708956375,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are you ready ? EOS",
+        "reference": "\u60a8\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u4eec\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "bleu_score": 0.7059646708956375,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was full . EOS",
+        "reference": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he is poor . EOS",
+        "reference": "\u4ed6\u5f88\u7a77\u3002",
+        "translation": "\u4ed6\u5f88\u7a77\u4eba\u8868\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she turned eighty-one . EOS",
+        "reference": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "translation": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS keep the change ! EOS",
+        "reference": "\u4e0d\u7528\u627e\u96f6\u94b1\u4e86\u3002",
+        "translation": "\u6539\u53d8\u8fd9\u6837\u7684\u8bdd\u3002",
+        "bleu_score": 0.04803713311155455,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're UNK . EOS",
+        "reference": "\u6211\u4eec\u5f88\u4fdd\u5b88\u3002",
+        "translation": "\u6211\u4eec\u662f\u3002",
+        "bleu_score": 0.17457760303673445,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm ill . EOS",
+        "reference": "\u6211\u751f\u75c5\u4e86\u3002",
+        "translation": "\u6211\u75c5\u4e86\u3002",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is tom well ? EOS",
+        "reference": "\u6c64\u59c6\u8fd8\u597d\u5427\uff1f",
+        "translation": "\u6c64\u59c6\u597d\u5417\uff1f",
+        "bleu_score": 0.199586480172148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he just arrived . EOS",
+        "reference": "\u4ed6\u521a\u5230\u3002",
+        "translation": "\u4ed6\u521a\u5230\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS is everybody ready ? EOS",
+        "reference": "\u6240\u6709\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "bleu_score": 0.7742694129875983,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i often hiccup . EOS",
+        "reference": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "translation": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she likes oranges . EOS",
+        "reference": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "translation": "\u5979\u559c\u6b22\u67f3\u6a59\u3002",
+        "bleu_score": 0.40378422324121455,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody was injured . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS who likes beans ? EOS",
+        "reference": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "translation": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom runs fast . EOS",
+        "reference": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "translation": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS they want more . EOS",
+        "reference": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "translation": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom was bullied . EOS",
+        "reference": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS that 's life . EOS",
+        "reference": "\u8fd9\u5c31\u662f\u751f\u6d3b\u3002",
+        "translation": "\u90a3\u5c31\u662f\u751f\u547d\u7684\u4eba\u3002",
+        "bleu_score": 0.26462752166987974,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS see you around . EOS",
+        "reference": "\u518d\u89c1\uff01",
+        "translation": "\u518d\u89c1\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS now i remember . EOS",
+        "reference": "\u73b0\u5728\u6211\u60f3\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u73b0\u5728\u5728\u5728\u5728\u8bfb\u8fc7\u8bb0\u5fc6\u4e86\u3002",
+        "bleu_score": 0.13148386731703166,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she hated him . EOS",
+        "reference": "\u5979\u6068\u4ed6\u3002",
+        "translation": "\u5979\u6068\u4ed6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tell me again . EOS",
+        "reference": "\u91cd\u65b0\u544a\u8bc9\u6211\u3002",
+        "translation": "\u544a\u8bc9\u6211\u4e00\u70b9\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom follows orders . EOS",
+        "reference": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "translation": "\u6c64\u59c6\u670d\u547d\u4ee4\u3002",
+        "bleu_score": 0.5199414352539743,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do it now . EOS",
+        "reference": "\u73b0\u5728\u5c31\u505a\u3002",
+        "translation": "\u5b83\u73b0\u5728\u505a\u3002",
+        "bleu_score": 0.30012281707917204,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS foxes eat UNK . EOS",
+        "reference": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "translation": "\u5403\u9e21\u8089\u5c31\u5403\u4e00\u4e9b\u8089",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i almost won . EOS",
+        "reference": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "translation": "\u6211\u8d62\u4e86\u51e0\u4e4e\u3002",
+        "bleu_score": 0.28732590718841977,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shake my hand . EOS",
+        "reference": "\u548c\u6211\u63e1\u624b\u3002",
+        "translation": "\u548c\u6211\u63e1\u4e86\u4e00\u6837\u8001\u3002",
+        "bleu_score": 0.26462752166987974,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're hiding . EOS",
+        "reference": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "translation": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm italian . EOS",
+        "reference": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "translation": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS they hated tom . EOS",
+        "reference": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "translation": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm innocent . EOS",
+        "reference": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "translation": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS prices went up . EOS",
+        "reference": "\u7269\u4ef7\u4e0a\u6da8\u3002",
+        "translation": "\u4ef7\u4e0a\u6da8\u3002",
+        "bleu_score": 0.7788007830714049,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's great . EOS",
+        "reference": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "translation": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS no one knows . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS words express thoughts . EOS",
+        "reference": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "translation": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do n't cry . EOS",
+        "reference": "\u522b\u54ed\u3002",
+        "translation": "\u522b\u54ed\u3002",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he wears glasses . EOS",
+        "reference": "\u4ed6\u6234\u773c\u955c\u3002",
+        "translation": "\u4ed6\u6234\u773c\u955c\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS the system worked . EOS",
+        "reference": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u4e86\u3002",
+        "translation": "\u529f\u8bfe\u5802\u5df2\u7ecf\u53d6\u5f97\u4e86\u3002",
+        "bleu_score": 0.09849464069722606,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS take your time . EOS",
+        "reference": "\u4f60\u53ef\u4ee5\u6162\u6162\u6765\u3002",
+        "translation": "\u4f60\u53ef\u4ee5\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6162\u6765\u3002",
+        "bleu_score": 0.21277946138547443,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he UNK me . EOS",
+        "reference": "\u4ed6\u5411\u6211\u65bd\u538b\u3002",
+        "translation": "\u4ed6\u5e2e\u6211\u3002",
+        "bleu_score": 0.07838557791396898,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i know tom . EOS",
+        "reference": "\u6211\u8ba4\u8bc6\u6c64\u59c6\u3002",
+        "translation": "\u6211\u77e5\u9053\u6c64\u59c6\u77e5\u9053\u3002",
+        "bleu_score": 0.14649147584768704,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everything went black . EOS",
+        "reference": "\u4e00\u5207\u90fd\u53d8\u6210\u4e86\u9ed1\u8272\u3002",
+        "translation": "\u4e00\u5929\u9ed1\u7684\u9ed1\u8272\u3002",
+        "bleu_score": 0.23146031761725225,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let them decide . EOS",
+        "reference": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "translation": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are you finished ? EOS",
+        "reference": "\u4f60\u7ed3\u675f\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u5b8c\u6210\u4e86\u5417\uff1f",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i feel lonely . EOS",
+        "reference": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "translation": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS has anything changed ? EOS",
+        "reference": "\u6709\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "translation": "\u6709\u4ec0\u4e48\u4e8b\u6539\u53d8\u4e86\u5417\uff1f",
+        "bleu_score": 0.4971309346731946,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS every minute UNK . EOS",
+        "reference": "\u5206UNK\u5fc5\u4e89\u3002",
+        "translation": "\u6bcf\u5206\u949f\u90fd\u5206\u949f\u3002",
+        "bleu_score": 0.06338537715154677,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what a surprise ! EOS",
+        "reference": "\u592a\u60ca\u559c\u4e86!",
+        "translation": "\u505a\u4e86\u4e00\u676f\u4ec0\u4e48\uff0c\u5c31\u5f00\u4e86\u3002",
+        "bleu_score": 0.03234234861330207,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who built it ? EOS",
+        "reference": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "translation": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he got angry . EOS",
+        "reference": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "translation": "\u4ed6\u751f\u6c14\u3002",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she UNK him . EOS",
+        "reference": "\u5979\u770b\u4e0d\u8d77\u4ed6\u3002",
+        "translation": "\u5979\u5411\u4ed6\u6c42\u52a9\u3002",
+        "bleu_score": 0.08576867549705255,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i hate mosquitoes . EOS",
+        "reference": "\u6211\u6068\u868a\u5b50\u3002",
+        "translation": "\u6211\u6068\u868a\u5b50\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he acts quickly . EOS",
+        "reference": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "translation": "\u4ed6\u81ea\u5df1\u7684\u884c\u52a8\u9910\u53d6\u5f97\u81ea\u5df1\u81ea\u5df1\u81ea\u5df1\u81ea\u5df1\u81ea\u5df1\u505a\u5f97\u901a\u3002",
+        "bleu_score": 0.05219729544172251,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are they students ? EOS",
+        "reference": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "translation": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do you understand ? EOS",
+        "reference": "\u4f60\u660e\u767d\u4e86\u5417?",
+        "translation": "\u4f60\u660e\u767d\u4e86\u4ec0\u4e48\u56fd\u5bb6\uff1f",
+        "bleu_score": 0.35051583226576016,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS knowledge is power . EOS",
+        "reference": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "translation": "\u77e5\u9053\u5c31\u662f\u529b\u3002",
+        "bleu_score": 0.34179596577284005,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what should i bring ? EOS",
+        "reference": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "translation": "\u6211\u5e26\u4ec0\u4e48\uff1f",
+        "bleu_score": 0.33971394975823155,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is no fool . EOS",
+        "reference": "\u4ed6\u6ca1\u75af\u3002",
+        "translation": "\u4ed6\u6ca1\u75af\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she went there yesterday . EOS",
+        "reference": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u3002",
+        "translation": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u4e86\u3002",
+        "bleu_score": 0.7508646933933458,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he climbed the stairs . EOS",
+        "reference": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "translation": "\u4ed6\u722c\u4e0a\u4e86\u5bcc\u58eb\u5c71\u3002",
+        "bleu_score": 0.43917511123917813,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i just heard something . EOS",
+        "reference": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u4e00\u4e9b\u6d88\u606f\u3002",
+        "translation": "\u6211\u53ea\u662f\u4e00\u70b9\u542c\u5230\u6211\u7684\u4e1c\u897f\u3002",
+        "bleu_score": 0.2405426246117364,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i am from UNK . EOS",
+        "reference": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "translation": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS you broke the rules . EOS",
+        "reference": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "translation": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      }
+    ],
+    "bleu_scores": [
+      0,
+      0.21727738257913376,
+      0.35051583226576016,
+      0.2878298075145074,
+      0.5223324594383916,
+      1.0,
+      0.08051168000582008,
+      0.1064033951497061,
+      0.0832788853447679,
+      0.8018339587419306,
+      0.5745391373199252,
+      0.10542343743005167,
+      1.0,
+      0.6220921943331938,
+      0.19844003011636663,
+      1.0,
+      0.04803713311155455,
+      0.30012281707917204,
+      0.24430833446176173,
+      0.016220543780652224,
+      0.17686984272214148,
+      0.06462246404202593,
+      0.6451011383982818,
+      0.13910705966982442,
+      1.0,
+      1.0,
+      0.06179486513194644,
+      1.0,
+      0.8271628750638266,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7059646708956375,
+      0.7059646708956375,
+      1.0,
+      0.3693051303535175,
+      1.0,
+      0.04803713311155455,
+      0.17457760303673445,
+      0.4926954462837668,
+      0.199586480172148,
+      1.0,
+      0.7742694129875983,
+      1.0,
+      0.40378422324121455,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.26462752166987974,
+      0.8018339587419306,
+      0.13148386731703166,
+      1.0,
+      0.3693051303535175,
+      0.5199414352539743,
+      0.30012281707917204,
+      0.05629571924668087,
+      0.28732590718841977,
+      0.26462752166987974,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.7788007830714049,
+      1.0,
+      1.0,
+      1.0,
+      0.8018339587419306,
+      1.0,
+      0.09849464069722606,
+      0.21277946138547443,
+      0.07838557791396898,
+      0.14649147584768704,
+      0.23146031761725225,
+      1.0,
+      0.3693051303535175,
+      1.0,
+      0.4971309346731946,
+      0.06338537715154677,
+      0.03234234861330207,
+      1.0,
+      0.4926954462837668,
+      0.08576867549705255,
+      1.0,
+      0.05219729544172251,
+      1.0,
+      0.35051583226576016,
+      0.34179596577284005,
+      0.33971394975823155,
+      1.0,
+      0.7508646933933458,
+      0.43917511123917813,
+      0.2405426246117364,
+      1.0,
+      1.0
+    ],
+    "exact_matches": 42,
+    "total_samples": 100,
+    "experiment_name": "baseline",
+    "avg_bleu": 0.5874725352352919,
+    "exact_match_rate": 0.42
+  },
+  "no_positional_encoding": {
+    "train_losses": [
+      0.004960245222161022,
+      0.00380863057641205,
+      0.0033586132109753764,
+      0.0030539820696194,
+      0.0027015219861207442,
+      0.0024195442640253333,
+      0.002205710943753002,
+      0.0020046658966900066,
+      0.001820563207442696,
+      0.0016543216665065655,
+      0.0014870959001107565,
+      0.0013461589705402214,
+      0.00124372099650835,
+      0.0011373896065385873,
+      0.0010549932892003422,
+      0.0009484059241714272,
+      0.0008687549657853286,
+      0.0008148530166278955,
+      0.0007420182726054267,
+      0.0006609563314317744
+    ],
+    "val_losses": [
+      0.00442493717085324,
+      0.0037428192085011227,
+      0.003320438267147981,
+      0.002915799992074322,
+      0.0026007919507959744,
+      0.002323694919048617,
+      0.002115144085207347,
+      0.0018720256955861386,
+      0.0016699025212325992,
+      0.0014971444367823424,
+      0.0013268392608861053,
+      0.0011777747009783287,
+      0.0010776789935202312,
+      0.0009678859202833638,
+      0.0008760248797229115,
+      0.0007660085518316419,
+      0.0006925725152342201,
+      0.0006364395498061593,
+      0.0005469693951318085,
+      0.0004890822909100515
+    ],
+    "best_val_loss": 0.0004890822909100515,
+    "samples": [
+      {
+        "source": "BOS UNK ! EOS",
+        "reference": "\u5e72\u676f!",
+        "translation": "\u5c71\u9876\u52a8\uff01",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS listen . EOS",
+        "reference": "\u542c\u7740\u3002",
+        "translation": "\u542c\u3002",
+        "bleu_score": 0.09266933305771967,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS try it . EOS",
+        "reference": "\u8bd5\u8bd5\u5427\u3002",
+        "translation": "\u8bd5\u5427\u3002",
+        "bleu_score": 0.5745391373199252,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u4e0d\u53ef\u80fd\uff01",
+        "translation": "\u6ca1\u6709\uff01",
+        "bleu_score": 0.07553919378694879,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS drive safely . EOS",
+        "reference": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "translation": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS wood UNK . EOS",
+        "reference": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "translation": "\u6728\u5934\u53d1\u53ea\u884c\u52a8\u3002",
+        "bleu_score": 0.1499677052644562,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS be calm . EOS",
+        "reference": "\u51b7\u9759\u70b9\u3002",
+        "translation": "\u51b7\u9759\u4e0b\u6765\u3002",
+        "bleu_score": 0.21727738257913376,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS thanks UNK . EOS",
+        "reference": "\u8fd8\u662f\u8981\u8bf4\u8c22\u8c22\u7684\u3002",
+        "translation": "\u8c22\u8c22\u60a8\u7684\u91cd\u529b\u3002",
+        "bleu_score": 0.1458583082156677,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u6ca1\u95e8\uff01",
+        "translation": "\u6ca1\u6709\uff01",
+        "bleu_score": 0.13910705966982442,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shut up ! EOS",
+        "reference": "\u95ed\u5634\uff01",
+        "translation": "\u5173\u95ed\uff01",
+        "bleu_score": 0.13910705966982442,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no problem ! EOS",
+        "reference": "\u6ca1\u95ee\u9898\uff01",
+        "translation": "\u6ca1\u6709\u95ee\u9898!",
+        "bleu_score": 0.21727738257913376,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS come along . EOS",
+        "reference": "\u5feb\u70b9\u3002",
+        "translation": "\u6765\u5427\u3002",
+        "bleu_score": 0.10542343743005167,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS why not ? EOS",
+        "reference": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "translation": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS move quietly . EOS",
+        "reference": "\u8f7b\u8f7b\u5730\u79fb\u52a8\u3002",
+        "translation": "\u8f7b\u677e\u70b9\u3002",
+        "bleu_score": 0.06664992437812525,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody asked . EOS",
+        "reference": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "translation": "\u6ca1\u4eba\u95ee\u95ee\u95ee\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS someone called . EOS",
+        "reference": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "translation": "\u6709\u4eba\u6253\u7535\u8bdd\u7ed9\u4f60\u3002",
+        "bleu_score": 0.5985674423746434,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS many thanks . EOS",
+        "reference": "\u975e\u5e38\u611f\u8c22\uff01",
+        "translation": "\u5f88\u591a\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop reading . EOS",
+        "reference": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "translation": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "translation": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS get real . EOS",
+        "reference": "\u9192\u9192\u5427\u3002",
+        "translation": "\u9192\u5427\uff01",
+        "bleu_score": 0.2380345546096625,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u50bb\u770b\u7740\u3002",
+        "translation": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "bleu_score": 0.17686984272214148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS feel this . EOS",
+        "reference": "\u6765\u611f\u53d7\u4e00\u4e0b\u8fd9\u4e2a\u3002",
+        "translation": "\u611f\u89c9\u8fd9\u4e2a\u3002",
+        "bleu_score": 0.2543844025186863,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everybody lies . EOS",
+        "reference": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS get down ! EOS",
+        "reference": "\u8db4\u4e0b\uff01",
+        "translation": "\u8db4\u4e0b\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS god exists . EOS",
+        "reference": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "translation": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS we know . EOS",
+        "reference": "\u6211\u4eec\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she felt blue . EOS",
+        "reference": "\u5979\u611f\u5230UNKUNK\u4e0d\u4e50\u7684\u3002",
+        "translation": "\u5979\u611f\u5230\u84dd\u8272\u7684\u84dd\u8272\u6bdb\u3002",
+        "bleu_score": 0.16766008056055845,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS how are you ? EOS",
+        "reference": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "translation": "\u4f60\u600e\u4e48\u6837\uff1f",
+        "bleu_score": 0.08675036022628713,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS clean your room . EOS",
+        "reference": "\u6e05\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "translation": "\u6253\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "bleu_score": 0.8271628750638266,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let me think . EOS",
+        "reference": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "translation": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS the phone rang . EOS",
+        "reference": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "translation": "\u7535\u8bdd\u54cd\u4e86\u3002",
+        "bleu_score": 0.199586480172148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS can anyone drive ? EOS",
+        "reference": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "translation": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS jesus loves you . EOS",
+        "reference": "\u8036\u7a23\u7231\u4f60\u3002",
+        "translation": "\u8036\u7a23\u7231\u4f60\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom UNK approval . EOS",
+        "reference": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "translation": "\u6c64\u59c6\u5934\u53d1\u3002",
+        "bleu_score": 0.16340758921552642,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS enjoy your holidays . EOS",
+        "reference": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "translation": "\u5ea6\u5047\u8fc7\u5f97\u5f88\u4fbf\u5b9c\u3002",
+        "bleu_score": 0.11101977839744855,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one came . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS you must choose . EOS",
+        "reference": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "translation": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are you ready ? EOS",
+        "reference": "\u60a8\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u4eec\u51c6\u5907\u597d\u5417\uff1f",
+        "bleu_score": 0.38032254043708436,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was full . EOS",
+        "reference": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he is poor . EOS",
+        "reference": "\u4ed6\u5f88\u7a77\u3002",
+        "translation": "\u4ed6\u4e0d\u7a77\u3002",
+        "bleu_score": 0.2878298075145074,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she turned eighty-one . EOS",
+        "reference": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "translation": "\u5979\u516b\u5341\u4e00\u70b9\u949f\u5230\u4e86\u3002",
+        "bleu_score": 0.4493924416938432,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS keep the change ! EOS",
+        "reference": "\u4e0d\u7528\u627e\u96f6\u94b1\u4e86\u3002",
+        "translation": "\u4fdd\u6301\u5e72\u561b",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're UNK . EOS",
+        "reference": "\u6211\u4eec\u5f88\u4fdd\u5b88\u3002",
+        "translation": "\u6211\u4eec\u4fdd\u5b88\u536b\u3002",
+        "bleu_score": 0.26711746724873986,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm ill . EOS",
+        "reference": "\u6211\u751f\u75c5\u4e86\u3002",
+        "translation": "\u6211\u75c5\u4e86\u3002",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is tom well ? EOS",
+        "reference": "\u6c64\u59c6\u8fd8\u597d\u5427\uff1f",
+        "translation": "\u6c64\u59c6\u597d\u5417\uff1f",
+        "bleu_score": 0.199586480172148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he just arrived . EOS",
+        "reference": "\u4ed6\u521a\u5230\u3002",
+        "translation": "\u4ed6\u521a\u5230\u4e86\u3002",
+        "bleu_score": 0.46351860235540515,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is everybody ready ? EOS",
+        "reference": "\u6240\u6709\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "bleu_score": 0.7742694129875983,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i often hiccup . EOS",
+        "reference": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "translation": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she likes oranges . EOS",
+        "reference": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "translation": "\u5979\u559c\u6b22\u67f3\u6a59\u3002",
+        "bleu_score": 0.40378422324121455,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody was injured . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS who likes beans ? EOS",
+        "reference": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "translation": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom runs fast . EOS",
+        "reference": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "translation": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS they want more . EOS",
+        "reference": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "translation": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom was bullied . EOS",
+        "reference": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS that 's life . EOS",
+        "reference": "\u8fd9\u5c31\u662f\u751f\u6d3b\u3002",
+        "translation": "\u90a3\u662f\u751f\u6d3b\u3002",
+        "bleu_score": 0.5909819627408345,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS see you around . EOS",
+        "reference": "\u518d\u89c1\uff01",
+        "translation": "\u518d\u89c1\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS now i remember . EOS",
+        "reference": "\u73b0\u5728\u6211\u60f3\u8d77\u6765\u4e86\u3002",
+        "translation": "\u73b0\u5728\u6211\u8bb0\u5f97\u3002",
+        "bleu_score": 0.26461868905382996,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she hated him . EOS",
+        "reference": "\u5979\u6068\u4ed6\u3002",
+        "translation": "\u5979\u975e\u5e38\u52c7\u6562\u3002",
+        "bleu_score": 0.07292764674344251,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tell me again . EOS",
+        "reference": "\u91cd\u65b0\u544a\u8bc9\u6211\u3002",
+        "translation": "\u518d\u89c1\u3002",
+        "bleu_score": 0.038783115248139925,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom follows orders . EOS",
+        "reference": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "translation": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do it now . EOS",
+        "reference": "\u73b0\u5728\u5c31\u505a\u3002",
+        "translation": "\u73b0\u5728\u5c31\u662f\u5b83\u505a\u3002",
+        "bleu_score": 0.38032254043708436,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS foxes eat UNK . EOS",
+        "reference": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "translation": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i almost won . EOS",
+        "reference": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "translation": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS shake my hand . EOS",
+        "reference": "\u548c\u6211\u63e1\u624b\u3002",
+        "translation": "\u548c\u6211\u63e1\u624b\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS we 're hiding . EOS",
+        "reference": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "translation": "\u6211\u4eec\u5728\u522b\u62c5\u5fc3\u3002",
+        "bleu_score": 0.30800706787831533,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm italian . EOS",
+        "reference": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "translation": "\u6211\u662f\u610f\u5927\u5229\u4eba\u3002",
+        "bleu_score": 0.6033924970132344,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS they hated tom . EOS",
+        "reference": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "translation": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm innocent . EOS",
+        "reference": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "translation": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS prices went up . EOS",
+        "reference": "\u7269\u4ef7\u4e0a\u6da8\u3002",
+        "translation": "\u4ef7\u4e00\u4e0b\u3002",
+        "bleu_score": 0.08558019692182874,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's great . EOS",
+        "reference": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "translation": "\u90a3\u662f\u5f88\u68d2\u7684\u3002",
+        "bleu_score": 0.07260161637632839,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one knows . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS words express thoughts . EOS",
+        "reference": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "translation": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do n't cry . EOS",
+        "reference": "\u522b\u54ed\u3002",
+        "translation": "\u522b\u54ed\u3002",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he wears glasses . EOS",
+        "reference": "\u4ed6\u6234\u773c\u955c\u3002",
+        "translation": "\u4ed6\u6234\u7740\u773c\u955c\u3002",
+        "bleu_score": 0.4560124751032924,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS the system worked . EOS",
+        "reference": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u4e86\u3002",
+        "translation": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u3002",
+        "bleu_score": 0.7626542259566731,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS take your time . EOS",
+        "reference": "\u4f60\u53ef\u4ee5\u6162\u6162\u6765\u3002",
+        "translation": "\u968f\u65f6\u95f4\u6253\u7535\u8bdd\u7ed9\u4f60\u3002",
+        "bleu_score": 0.05077687111622362,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he UNK me . EOS",
+        "reference": "\u4ed6\u5411\u6211\u65bd\u538b\u3002",
+        "translation": "\u4ed6\u67aa\u51fb\u6211\u3002",
+        "bleu_score": 0.08353123339288868,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i know tom . EOS",
+        "reference": "\u6211\u8ba4\u8bc6\u6c64\u59c6\u3002",
+        "translation": "\u6211\u77e5\u9053\u6c64\u59c6\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everything went black . EOS",
+        "reference": "\u4e00\u5207\u90fd\u53d8\u6210\u4e86\u9ed1\u8272\u3002",
+        "translation": "\u4e00\u5207\u90fd\u53d8\u9ed1\u8272\u7684\u5973\u6027\u3002",
+        "bleu_score": 0.42409451766576545,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let them decide . EOS",
+        "reference": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "translation": "\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "bleu_score": 0.8187307530779819,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are you finished ? EOS",
+        "reference": "\u4f60\u7ed3\u675f\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u505a\u5b8c\u4e86\u5417\uff1f",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i feel lonely . EOS",
+        "reference": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "translation": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS has anything changed ? EOS",
+        "reference": "\u6709\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "translation": "\u6709\u4efb\u4f55\u4e1c\u897f\u5417\uff1f",
+        "bleu_score": 0.24775695730015102,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS every minute UNK . EOS",
+        "reference": "\u5206UNK\u5fc5\u4e89\u3002",
+        "translation": "\u5206\u949f\u548c\u5e73\u4e00\u4e9b\u519b\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what a surprise ! EOS",
+        "reference": "\u592a\u60ca\u559c\u4e86!",
+        "translation": "\u6bd4\u8d5b!",
+        "bleu_score": 0.05412619752384985,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who built it ? EOS",
+        "reference": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "translation": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he got angry . EOS",
+        "reference": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "translation": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she UNK him . EOS",
+        "reference": "\u5979\u770b\u4e0d\u8d77\u4ed6\u3002",
+        "translation": "\u5979\u6325\u7740\u4ed6\u3002",
+        "bleu_score": 0.17789167506582698,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i hate mosquitoes . EOS",
+        "reference": "\u6211\u6068\u868a\u5b50\u3002",
+        "translation": "\u6211\u6068\u868a\u5b50\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he acts quickly . EOS",
+        "reference": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "translation": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are they students ? EOS",
+        "reference": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "translation": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do you understand ? EOS",
+        "reference": "\u4f60\u660e\u767d\u4e86\u5417?",
+        "translation": "\u4f60\u660e\u767d\u4e86\u5417\uff1f",
+        "bleu_score": 0.788238465735608,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS knowledge is power . EOS",
+        "reference": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "translation": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS what should i bring ? EOS",
+        "reference": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "translation": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he is no fool . EOS",
+        "reference": "\u4ed6\u6ca1\u75af\u3002",
+        "translation": "\u4ed6\u6ca1\u75af\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she went there yesterday . EOS",
+        "reference": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u3002",
+        "translation": "\u6628\u5929\u5979\u53bb\u90a3\u91cc\u3002",
+        "bleu_score": 0.6417688319882853,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he climbed the stairs . EOS",
+        "reference": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "translation": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i just heard something . EOS",
+        "reference": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u4e00\u4e9b\u6d88\u606f\u3002",
+        "translation": "\u6211\u53ea\u662f\u542c\u89c1\u8fc7\u4f60\u3002",
+        "bleu_score": 0.3018403454665197,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i am from UNK . EOS",
+        "reference": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "translation": "\u6211\u4ece\u94f6\u884c\u3002",
+        "bleu_score": 0.07102518775785427,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you broke the rules . EOS",
+        "reference": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "translation": "\u4f60\u7684\u89c4\u5219\u5438\u5f15\u4ed6\u3002",
+        "bleu_score": 0.14649147584768704,
+        "exact_match": 0
+      }
+    ],
+    "bleu_scores": [
+      0,
+      0.09266933305771967,
+      0.5745391373199252,
+      0.07553919378694879,
+      1.0,
+      0.1499677052644562,
+      0.21727738257913376,
+      0.1458583082156677,
+      0.13910705966982442,
+      0.13910705966982442,
+      0.21727738257913376,
+      0.10542343743005167,
+      1.0,
+      0.06664992437812525,
+      0.3693051303535175,
+      0.5985674423746434,
+      0,
+      1.0,
+      1.0,
+      0.2380345546096625,
+      0.17686984272214148,
+      0.2543844025186863,
+      1.0,
+      0.8018339587419306,
+      1.0,
+      1.0,
+      0.16766008056055845,
+      0.08675036022628713,
+      0.8271628750638266,
+      1.0,
+      0.199586480172148,
+      1.0,
+      1.0,
+      0.16340758921552642,
+      0.11101977839744855,
+      1.0,
+      1.0,
+      0.38032254043708436,
+      1.0,
+      0.2878298075145074,
+      0.4493924416938432,
+      0,
+      0.26711746724873986,
+      0.4926954462837668,
+      0.199586480172148,
+      0.46351860235540515,
+      0.7742694129875983,
+      1.0,
+      0.40378422324121455,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.5909819627408345,
+      0.8018339587419306,
+      0.26461868905382996,
+      0.07292764674344251,
+      0.038783115248139925,
+      1.0,
+      0.38032254043708436,
+      1.0,
+      1.0,
+      1.0,
+      0.30800706787831533,
+      0.6033924970132344,
+      1.0,
+      1.0,
+      0.08558019692182874,
+      0.07260161637632839,
+      1.0,
+      1.0,
+      0.8018339587419306,
+      0.4560124751032924,
+      0.7626542259566731,
+      0.05077687111622362,
+      0.08353123339288868,
+      0.3693051303535175,
+      0.42409451766576545,
+      0.8187307530779819,
+      0.3693051303535175,
+      1.0,
+      0.24775695730015102,
+      0.05629571924668087,
+      0.05412619752384985,
+      1.0,
+      1.0,
+      0.17789167506582698,
+      1.0,
+      1.0,
+      1.0,
+      0.788238465735608,
+      1.0,
+      1.0,
+      1.0,
+      0.6417688319882853,
+      1.0,
+      0.3018403454665197,
+      0.07102518775785427,
+      0.14649147584768704
+    ],
+    "exact_matches": 40,
+    "total_samples": 100,
+    "experiment_name": "no_positional_encoding",
+    "avg_bleu": 0.5647724328369071,
+    "exact_match_rate": 0.4
+  },
+  "single_head_attention": {
+    "train_losses": [
+      0.004905542616490854,
+      0.003802481103552661,
+      0.003343522374949092,
+      0.0029716752468603616,
+      0.0026353070351277084,
+      0.0023680274449220514,
+      0.0021264300897147247,
+      0.0019210311606522256,
+      0.0017148659721643272,
+      0.0015542633759801406,
+      0.0014323094497149563,
+      0.0013031685420318375,
+      0.0012039140803978255,
+      0.0011276635726872016,
+      0.0010478538698897163,
+      0.0009901100225480238,
+      0.0009331360840103117,
+      0.0008921723208800881,
+      0.00082243223604136,
+      0.0007604696965762133
+    ],
+    "val_losses": [
+      0.004402730525423312,
+      0.003702248666969803,
+      0.0032901724508975923,
+      0.0028574626968602265,
+      0.002533918012778563,
+      0.002263644196166072,
+      0.0020037091218535847,
+      0.001757814440407426,
+      0.001556044510039095,
+      0.001394784166057695,
+      0.001258608684621244,
+      0.0011425327098839727,
+      0.0010481397999617598,
+      0.000962879100177672,
+      0.0009006387173485679,
+      0.0008502940621336511,
+      0.0008424351275850558,
+      0.0007378682063710477,
+      0.0006982373790027089,
+      0.000606978248034671
+    ],
+    "best_val_loss": 0.000606978248034671,
+    "samples": [
+      {
+        "source": "BOS UNK ! EOS",
+        "reference": "\u5e72\u676f!",
+        "translation": "\u5f53\uff01",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS listen . EOS",
+        "reference": "\u542c\u7740\u3002",
+        "translation": "\u542c\u3002",
+        "bleu_score": 0.09266933305771967,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS try it . EOS",
+        "reference": "\u8bd5\u8bd5\u5427\u3002",
+        "translation": "\u8bd5\u5427\u3002",
+        "bleu_score": 0.5745391373199252,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u4e0d\u53ef\u80fd\uff01",
+        "translation": "\u4e0d\uff01",
+        "bleu_score": 0.05620679171462846,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS drive safely . EOS",
+        "reference": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "translation": "\u5b89\u9759\u4e0b\u3002",
+        "bleu_score": 0.06664992437812525,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS wood UNK . EOS",
+        "reference": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "translation": "\u6728\u5934\u662f\u6728\u5236\u7684\u3002",
+        "bleu_score": 0.1499677052644562,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS be calm . EOS",
+        "reference": "\u51b7\u9759\u70b9\u3002",
+        "translation": "\u51b7\u9759\u70b9\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS thanks UNK . EOS",
+        "reference": "\u8fd8\u662f\u8981\u8bf4\u8c22\u8c22\u7684\u3002",
+        "translation": "\u8c22\u8c22\u8c22\u3002",
+        "bleu_score": 0.10588666874092079,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u6ca1\u95e8\uff01",
+        "translation": "\u4e0d\uff01",
+        "bleu_score": 0.07023022166152769,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shut up ! EOS",
+        "reference": "\u95ed\u5634\uff01",
+        "translation": "\u95ed\u5634\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS no problem ! EOS",
+        "reference": "\u6ca1\u95ee\u9898\uff01",
+        "translation": "\u4e0d\u662f\u95ee\u9898\uff01",
+        "bleu_score": 0.41313469993585583,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS come along . EOS",
+        "reference": "\u5feb\u70b9\u3002",
+        "translation": "\u8fdb\u6765\u3002",
+        "bleu_score": 0.10542343743005167,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS why not ? EOS",
+        "reference": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "translation": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS move quietly . EOS",
+        "reference": "\u8f7b\u8f7b\u5730\u79fb\u52a8\u3002",
+        "translation": "\u8f7b\u8f7b\u677e\u4e00\u4e0b\u3002",
+        "bleu_score": 0.17686984272214148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody asked . EOS",
+        "reference": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "translation": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS someone called . EOS",
+        "reference": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "translation": "\u6709\u4eba\u6253\u7535\u8bdd\u7ed9\u8c01\u4e86\u3002",
+        "bleu_score": 0.5223324594383916,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS many thanks . EOS",
+        "reference": "\u975e\u5e38\u611f\u8c22\uff01",
+        "translation": "\u8c22\u8c22\u8c22\u3002",
+        "bleu_score": 0.06485766111981899,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop reading . EOS",
+        "reference": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "translation": "\u522b\u770b\u770b\uff01",
+        "bleu_score": 0.06485766111981899,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "translation": "\u522b\u518d\u4e5f\u4e0d\u8981\u3002",
+        "bleu_score": 0.17686984272214148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get real . EOS",
+        "reference": "\u9192\u9192\u5427\u3002",
+        "translation": "\u9192\u5427\u3002",
+        "bleu_score": 0.5745391373199252,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u50bb\u770b\u7740\u3002",
+        "translation": "\u522b\u518d\u4e5f\u4e0d\u8981\u3002",
+        "bleu_score": 0.17686984272214148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS feel this . EOS",
+        "reference": "\u6765\u611f\u53d7\u4e00\u4e0b\u8fd9\u4e2a\u3002",
+        "translation": "\u611f\u89c9\u4e4b\u524d\u5148\u751f\u611f\u89c9\u3002",
+        "bleu_score": 0.05077687111622362,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everybody lies . EOS",
+        "reference": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u8bf4\u8c0e\u3002",
+        "bleu_score": 0.6451011383982818,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get down ! EOS",
+        "reference": "\u8db4\u4e0b\uff01",
+        "translation": "\u8db4\uff01",
+        "bleu_score": 0.09266933305771967,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS god exists . EOS",
+        "reference": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "translation": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS we know . EOS",
+        "reference": "\u6211\u4eec\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she felt blue . EOS",
+        "reference": "\u5979\u611f\u5230UNKUNK\u4e0d\u4e50\u7684\u3002",
+        "translation": "\u5979\u89c9\u5f97\u4e0d\u50cf\u767d\u7684\u84dd\u8272\u3002",
+        "bleu_score": 0.045295234528932596,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS how are you ? EOS",
+        "reference": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "translation": "\u4f60\u5462\uff1f",
+        "bleu_score": 0.07141994581277612,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS clean your room . EOS",
+        "reference": "\u6e05\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "translation": "\u6253\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "bleu_score": 0.8271628750638266,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let me think . EOS",
+        "reference": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "translation": "\u8ba9\u6211\u60f3\u6211\u3002",
+        "bleu_score": 0.37949693437209453,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS the phone rang . EOS",
+        "reference": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "translation": "\u7535\u8bdd\u54cd\u4e86\u3002",
+        "bleu_score": 0.199586480172148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS can anyone drive ? EOS",
+        "reference": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "translation": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS jesus loves you . EOS",
+        "reference": "\u8036\u7a23\u7231\u4f60\u3002",
+        "translation": "\u8036\u7a23\u7231\u4f60\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom UNK approval . EOS",
+        "reference": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "translation": "\u6c64\u59c6\u540c\u610f\u3002",
+        "bleu_score": 0.3836549080914029,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS enjoy your holidays . EOS",
+        "reference": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "translation": "\u5ea6\u6109\u5feb\uff01",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one came . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u6765\u6ca1\u6709\u4eba\u6765\u3002",
+        "bleu_score": 0.3832407173160457,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you must choose . EOS",
+        "reference": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "translation": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are you ready ? EOS",
+        "reference": "\u60a8\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u4eec\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "bleu_score": 0.7059646708956375,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was full . EOS",
+        "reference": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he is poor . EOS",
+        "reference": "\u4ed6\u5f88\u7a77\u3002",
+        "translation": "\u4ed6\u5f88\u7a77\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she turned eighty-one . EOS",
+        "reference": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "translation": "\u5979\u88ab\u4e00\u5c81\u4e86\u3002",
+        "bleu_score": 0.526589673700149,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS keep the change ! EOS",
+        "reference": "\u4e0d\u7528\u627e\u96f6\u94b1\u4e86\u3002",
+        "translation": "\u7ee7\u7eed\u6539\u53d8\u5fc3\uff01",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're UNK . EOS",
+        "reference": "\u6211\u4eec\u5f88\u4fdd\u5b88\u3002",
+        "translation": "\u6211\u4eec\u662f\u4e2a\u574f\u5b50\u3002",
+        "bleu_score": 0.1499677052644562,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm ill . EOS",
+        "reference": "\u6211\u751f\u75c5\u4e86\u3002",
+        "translation": "\u6211\u75c5\u4e86\u3002",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is tom well ? EOS",
+        "reference": "\u6c64\u59c6\u8fd8\u597d\u5427\uff1f",
+        "translation": "\u6c64\u59c6\u597d\u597d\u597d\u5417\uff1f",
+        "bleu_score": 0.16825703857221574,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he just arrived . EOS",
+        "reference": "\u4ed6\u521a\u5230\u3002",
+        "translation": "\u4ed6\u521a\u5230\u4e86\u3002",
+        "bleu_score": 0.46351860235540515,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is everybody ready ? EOS",
+        "reference": "\u6240\u6709\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "bleu_score": 0.7742694129875983,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i often hiccup . EOS",
+        "reference": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "translation": "\u6211\u5e38\u6253\u55dd\u3002",
+        "bleu_score": 0.6461572644453879,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she likes oranges . EOS",
+        "reference": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "translation": "\u5979\u559c\u6b22\u67f3\u6a59\u6c41\u3002",
+        "bleu_score": 0.33676324652462286,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody was injured . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u53d7\u4f24\u53d7\u4f24\u4e86\u3002",
+        "bleu_score": 0.5223324594383916,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who likes beans ? EOS",
+        "reference": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "translation": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom runs fast . EOS",
+        "reference": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "translation": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS they want more . EOS",
+        "reference": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "translation": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom was bullied . EOS",
+        "reference": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u8d23\u4e86\u3002",
+        "bleu_score": 0.6807142003619572,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's life . EOS",
+        "reference": "\u8fd9\u5c31\u662f\u751f\u6d3b\u3002",
+        "translation": "\u90a3\u751f\u5c31\u662f\u751f\u547d\u3002",
+        "bleu_score": 0.30800706787831533,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS see you around . EOS",
+        "reference": "\u518d\u89c1\uff01",
+        "translation": "\u770b\u89c1\uff01",
+        "bleu_score": 0.33220398201307827,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS now i remember . EOS",
+        "reference": "\u73b0\u5728\u6211\u60f3\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u73b0\u5728\u8bb0\u5f97\u6211\u3002",
+        "bleu_score": 0.1458583082156677,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she hated him . EOS",
+        "reference": "\u5979\u6068\u4ed6\u3002",
+        "translation": "\u5979\u6068\u4ed6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tell me again . EOS",
+        "reference": "\u91cd\u65b0\u544a\u8bc9\u6211\u3002",
+        "translation": "\u544a\u8bc9\u6211\u4e00\u4e0b\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom follows orders . EOS",
+        "reference": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "translation": "\u6c64\u59c6\u8df3\u5f97\u81ea\u5df1\u7684\u547d\u4ee4\u3002",
+        "bleu_score": 0.25559090326541284,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do it now . EOS",
+        "reference": "\u73b0\u5728\u5c31\u505a\u3002",
+        "translation": "\u73b0\u5728\u6b63\u5728\u505a\u4e86\u3002",
+        "bleu_score": 0.16825703857221574,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS foxes eat UNK . EOS",
+        "reference": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "translation": "\u72d0\u72f8\u5403\u4e00\u4e0b\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i almost won . EOS",
+        "reference": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "translation": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS shake my hand . EOS",
+        "reference": "\u548c\u6211\u63e1\u624b\u3002",
+        "translation": "\u548c\u6211\u63e1\u624b\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS we 're hiding . EOS",
+        "reference": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "translation": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm italian . EOS",
+        "reference": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "translation": "\u6211\u662f\u610f\u4e49\u5927\u5229\u8bed\u3002",
+        "bleu_score": 0.35147860240506584,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS they hated tom . EOS",
+        "reference": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "translation": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm innocent . EOS",
+        "reference": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "translation": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS prices went up . EOS",
+        "reference": "\u7269\u4ef7\u4e0a\u6da8\u3002",
+        "translation": "\u4ef7\u4ef7\u4e0a\u6da8\u3002",
+        "bleu_score": 0.721826999314566,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's great . EOS",
+        "reference": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "translation": "\u90a3\u662f\u4e2a\u5f88\u68d2\u7684\u3002",
+        "bleu_score": 0.07454621240274892,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one knows . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u8ba4\u8bc6\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS words express thoughts . EOS",
+        "reference": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "translation": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do n't cry . EOS",
+        "reference": "\u522b\u54ed\u3002",
+        "translation": "\u4e0d\u8981\u54ed\u3002",
+        "bleu_score": 0.24473679234293869,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he wears glasses . EOS",
+        "reference": "\u4ed6\u6234\u773c\u955c\u3002",
+        "translation": "\u4ed6\u6234\u773c\u955c\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS the system worked . EOS",
+        "reference": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u4e86\u3002",
+        "translation": "\u7cfb\u7edf\u8fd0\u884c\u4e86\u3002",
+        "bleu_score": 0.5226898228984498,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS take your time . EOS",
+        "reference": "\u4f60\u53ef\u4ee5\u6162\u6162\u6765\u3002",
+        "translation": "\u4f60\u7684\u65f6\u95f4\u5230\u60a8\u7684\u65f6\u95f4\u3002",
+        "bleu_score": 0.0463371009532536,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he UNK me . EOS",
+        "reference": "\u4ed6\u5411\u6211\u65bd\u538b\u3002",
+        "translation": "\u4ed6\u62ef\u6551\u4e86\u6211\u3002",
+        "bleu_score": 0.08576867549705255,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i know tom . EOS",
+        "reference": "\u6211\u8ba4\u8bc6\u6c64\u59c6\u3002",
+        "translation": "\u6211\u77e5\u9053\u6c64\u59c6\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everything went black . EOS",
+        "reference": "\u4e00\u5207\u90fd\u53d8\u6210\u4e86\u9ed1\u8272\u3002",
+        "translation": "\u4e00\u5207\u9ed1\u7684\u5934\u53d1\u5f97\u5de8\u5927\u3002",
+        "bleu_score": 0.1169459400787246,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let them decide . EOS",
+        "reference": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "translation": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are you finished ? EOS",
+        "reference": "\u4f60\u7ed3\u675f\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u5b8c\u6210\u4e86\u5417\uff1f",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i feel lonely . EOS",
+        "reference": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "translation": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS has anything changed ? EOS",
+        "reference": "\u6709\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "translation": "\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "bleu_score": 0.8948393168143697,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS every minute UNK . EOS",
+        "reference": "\u5206UNK\u5fc5\u4e89\u3002",
+        "translation": "\u6bcf\u4e00\u70b9\u949f\u90fd\u6765\u3002",
+        "bleu_score": 0.04803713311155455,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what a surprise ! EOS",
+        "reference": "\u592a\u60ca\u559c\u4e86!",
+        "translation": "\u4e00\u4e2a\u60ca\u559c\u4e86\uff01",
+        "bleu_score": 0.3291621165538178,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who built it ? EOS",
+        "reference": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "translation": "\u8c01\u5efa\u4e86\uff1f",
+        "bleu_score": 0.17457760303673445,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he got angry . EOS",
+        "reference": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "translation": "\u4ed6\u751f\u6c14\u6c14\u6c14\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she UNK him . EOS",
+        "reference": "\u5979\u770b\u4e0d\u8d77\u4ed6\u3002",
+        "translation": "\u5979\u5b88\u7740\u4ed6\u3002",
+        "bleu_score": 0.17789167506582698,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i hate mosquitoes . EOS",
+        "reference": "\u6211\u6068\u868a\u5b50\u3002",
+        "translation": "\u6211\u8ba8\u538c\u70e6\u4e86\u3002",
+        "bleu_score": 0.07292764674344251,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he acts quickly . EOS",
+        "reference": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "translation": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are they students ? EOS",
+        "reference": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "translation": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do you understand ? EOS",
+        "reference": "\u4f60\u660e\u767d\u4e86\u5417?",
+        "translation": "\u4f60\u660e\u767d\u5417\uff1f",
+        "bleu_score": 0.37949693437209453,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS knowledge is power . EOS",
+        "reference": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "translation": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS what should i bring ? EOS",
+        "reference": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "translation": "\u6211\u5e94\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "bleu_score": 0.7508646933933458,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is no fool . EOS",
+        "reference": "\u4ed6\u6ca1\u75af\u3002",
+        "translation": "\u4ed6\u4e0d\u6015\u50bb\u3002",
+        "bleu_score": 0.08675036022628713,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she went there yesterday . EOS",
+        "reference": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u3002",
+        "translation": "\u5979\u6628\u5929\u53bb\u4e86\u90a3\u91cc\u3002",
+        "bleu_score": 0.6351288067453026,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he climbed the stairs . EOS",
+        "reference": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "translation": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i just heard something . EOS",
+        "reference": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u4e00\u4e9b\u6d88\u606f\u3002",
+        "translation": "\u6211\u53ea\u662f\u542c\u89c1\u4efb\u4f55\u4e1c\u897f\u3002",
+        "bleu_score": 0.30768078495044726,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i am from UNK . EOS",
+        "reference": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "translation": "\u6211\u4ece\u6765\u6ca1\u6709\u6765\u3002",
+        "bleu_score": 0.07454621240274892,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you broke the rules . EOS",
+        "reference": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "translation": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      }
+    ],
+    "bleu_scores": [
+      0,
+      0.09266933305771967,
+      0.5745391373199252,
+      0.05620679171462846,
+      0.06664992437812525,
+      0.1499677052644562,
+      1.0,
+      0.10588666874092079,
+      0.07023022166152769,
+      0.8018339587419306,
+      0.41313469993585583,
+      0.10542343743005167,
+      1.0,
+      0.17686984272214148,
+      1.0,
+      0.5223324594383916,
+      0.06485766111981899,
+      0.06485766111981899,
+      0.17686984272214148,
+      0.5745391373199252,
+      0.17686984272214148,
+      0.05077687111622362,
+      0.6451011383982818,
+      0.09266933305771967,
+      1.0,
+      1.0,
+      0.045295234528932596,
+      0.07141994581277612,
+      0.8271628750638266,
+      0.37949693437209453,
+      0.199586480172148,
+      1.0,
+      1.0,
+      0.3836549080914029,
+      0.4926954462837668,
+      0.3832407173160457,
+      1.0,
+      0.7059646708956375,
+      1.0,
+      1.0,
+      0.526589673700149,
+      0,
+      0.1499677052644562,
+      0.4926954462837668,
+      0.16825703857221574,
+      0.46351860235540515,
+      0.7742694129875983,
+      0.6461572644453879,
+      0.33676324652462286,
+      0.5223324594383916,
+      1.0,
+      1.0,
+      1.0,
+      0.6807142003619572,
+      0.30800706787831533,
+      0.33220398201307827,
+      0.1458583082156677,
+      1.0,
+      0.3693051303535175,
+      0.25559090326541284,
+      0.16825703857221574,
+      0.3693051303535175,
+      1.0,
+      1.0,
+      1.0,
+      0.35147860240506584,
+      1.0,
+      1.0,
+      0.721826999314566,
+      0.07454621240274892,
+      0.3693051303535175,
+      1.0,
+      0.24473679234293869,
+      1.0,
+      0.5226898228984498,
+      0.0463371009532536,
+      0.08576867549705255,
+      0.3693051303535175,
+      0.1169459400787246,
+      1.0,
+      0.3693051303535175,
+      1.0,
+      0.8948393168143697,
+      0.04803713311155455,
+      0.3291621165538178,
+      0.17457760303673445,
+      0.3693051303535175,
+      0.17789167506582698,
+      0.07292764674344251,
+      1.0,
+      1.0,
+      0.37949693437209453,
+      1.0,
+      0.7508646933933458,
+      0.08675036022628713,
+      0.6351288067453026,
+      1.0,
+      0.30768078495044726,
+      0.07454621240274892,
+      1.0
+    ],
+    "exact_matches": 29,
+    "total_samples": 100,
+    "experiment_name": "single_head_attention",
+    "avg_bleu": 0.507540494418269,
+    "exact_match_rate": 0.29
+  },
+  "no_residual_connection": {
+    "train_losses": [
+      0.0049118455497070565,
+      0.0038516498599844022,
+      0.003437639867280871,
+      0.0031199443879153022,
+      0.0028443323187757495,
+      0.002650856222919838,
+      0.0024987439833207598,
+      0.002364127178396297,
+      0.0022536359146859268,
+      0.002157502001968921,
+      0.0020949509746540297,
+      0.0020011240038585055,
+      0.0019306806185823064,
+      0.0018594603945392499,
+      0.0017905179772946956,
+      0.0017320361744594015,
+      0.0016755963769725,
+      0.0016412611819292457,
+      0.0016121051016996643,
+      0.0015476931691208676
+    ],
+    "val_losses": [
+      0.004454644185698413,
+      0.0038136095594623167,
+      0.003431450581017585,
+      0.0030682208160155086,
+      0.0028173290224896997,
+      0.00263331655700193,
+      0.0024739301614921856,
+      0.0023369033682199615,
+      0.0022046763404054695,
+      0.002085515537084691,
+      0.0019876586345834546,
+      0.0018813751894335925,
+      0.001787939325585134,
+      0.0016788445834208003,
+      0.0015976550620394536,
+      0.001521375567971148,
+      0.0014651327149947664,
+      0.0014652942539129805,
+      0.0013642911424711103,
+      0.0012875583446735534
+    ],
+    "best_val_loss": 0.0012875583446735534,
+    "samples": [
+      {
+        "source": "BOS UNK ! EOS",
+        "reference": "\u5e72\u676f!",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS listen . EOS",
+        "reference": "\u542c\u7740\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS try it . EOS",
+        "reference": "\u8bd5\u8bd5\u5427\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u4e0d\u53ef\u80fd\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS drive safely . EOS",
+        "reference": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS wood UNK . EOS",
+        "reference": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS be calm . EOS",
+        "reference": "\u51b7\u9759\u70b9\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS thanks UNK . EOS",
+        "reference": "\u8fd8\u662f\u8981\u8bf4\u8c22\u8c22\u7684\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u6ca1\u95e8\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shut up ! EOS",
+        "reference": "\u95ed\u5634\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no problem ! EOS",
+        "reference": "\u6ca1\u95ee\u9898\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS come along . EOS",
+        "reference": "\u5feb\u70b9\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS why not ? EOS",
+        "reference": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS move quietly . EOS",
+        "reference": "\u8f7b\u8f7b\u5730\u79fb\u52a8\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody asked . EOS",
+        "reference": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS someone called . EOS",
+        "reference": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS many thanks . EOS",
+        "reference": "\u975e\u5e38\u611f\u8c22\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop reading . EOS",
+        "reference": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get real . EOS",
+        "reference": "\u9192\u9192\u5427\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u50bb\u770b\u7740\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS feel this . EOS",
+        "reference": "\u6765\u611f\u53d7\u4e00\u4e0b\u8fd9\u4e2a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everybody lies . EOS",
+        "reference": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get down ! EOS",
+        "reference": "\u8db4\u4e0b\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS god exists . EOS",
+        "reference": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we know . EOS",
+        "reference": "\u6211\u4eec\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.13056803245857712,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she felt blue . EOS",
+        "reference": "\u5979\u611f\u5230UNKUNK\u4e0d\u4e50\u7684\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.030132927103482417,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS how are you ? EOS",
+        "reference": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS clean your room . EOS",
+        "reference": "\u6e05\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.13056803245857712,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let me think . EOS",
+        "reference": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS the phone rang . EOS",
+        "reference": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS can anyone drive ? EOS",
+        "reference": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS jesus loves you . EOS",
+        "reference": "\u8036\u7a23\u7231\u4f60\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom UNK approval . EOS",
+        "reference": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS enjoy your holidays . EOS",
+        "reference": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one came . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you must choose . EOS",
+        "reference": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are you ready ? EOS",
+        "reference": "\u60a8\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was full . EOS",
+        "reference": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is poor . EOS",
+        "reference": "\u4ed6\u5f88\u7a77\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she turned eighty-one . EOS",
+        "reference": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS keep the change ! EOS",
+        "reference": "\u4e0d\u7528\u627e\u96f6\u94b1\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're UNK . EOS",
+        "reference": "\u6211\u4eec\u5f88\u4fdd\u5b88\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.13056803245857712,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm ill . EOS",
+        "reference": "\u6211\u751f\u75c5\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is tom well ? EOS",
+        "reference": "\u6c64\u59c6\u8fd8\u597d\u5427\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he just arrived . EOS",
+        "reference": "\u4ed6\u521a\u5230\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is everybody ready ? EOS",
+        "reference": "\u6240\u6709\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i often hiccup . EOS",
+        "reference": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she likes oranges . EOS",
+        "reference": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody was injured . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who likes beans ? EOS",
+        "reference": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom runs fast . EOS",
+        "reference": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS they want more . EOS",
+        "reference": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was bullied . EOS",
+        "reference": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's life . EOS",
+        "reference": "\u8fd9\u5c31\u662f\u751f\u6d3b\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS see you around . EOS",
+        "reference": "\u518d\u89c1\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS now i remember . EOS",
+        "reference": "\u73b0\u5728\u6211\u60f3\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she hated him . EOS",
+        "reference": "\u5979\u6068\u4ed6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tell me again . EOS",
+        "reference": "\u91cd\u65b0\u544a\u8bc9\u6211\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom follows orders . EOS",
+        "reference": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do it now . EOS",
+        "reference": "\u73b0\u5728\u5c31\u505a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS foxes eat UNK . EOS",
+        "reference": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i almost won . EOS",
+        "reference": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shake my hand . EOS",
+        "reference": "\u548c\u6211\u63e1\u624b\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're hiding . EOS",
+        "reference": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.13056803245857712,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm italian . EOS",
+        "reference": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS they hated tom . EOS",
+        "reference": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm innocent . EOS",
+        "reference": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.06620821446395991,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS prices went up . EOS",
+        "reference": "\u7269\u4ef7\u4e0a\u6da8\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's great . EOS",
+        "reference": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one knows . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS words express thoughts . EOS",
+        "reference": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do n't cry . EOS",
+        "reference": "\u522b\u54ed\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he wears glasses . EOS",
+        "reference": "\u4ed6\u6234\u773c\u955c\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS the system worked . EOS",
+        "reference": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS take your time . EOS",
+        "reference": "\u4f60\u53ef\u4ee5\u6162\u6162\u6765\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he UNK me . EOS",
+        "reference": "\u4ed6\u5411\u6211\u65bd\u538b\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i know tom . EOS",
+        "reference": "\u6211\u8ba4\u8bc6\u6c64\u59c6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everything went black . EOS",
+        "reference": "\u4e00\u5207\u90fd\u53d8\u6210\u4e86\u9ed1\u8272\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.03765100417993525,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let them decide . EOS",
+        "reference": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are you finished ? EOS",
+        "reference": "\u4f60\u7ed3\u675f\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i feel lonely . EOS",
+        "reference": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS has anything changed ? EOS",
+        "reference": "\u6709\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS every minute UNK . EOS",
+        "reference": "\u5206UNK\u5fc5\u4e89\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what a surprise ! EOS",
+        "reference": "\u592a\u60ca\u559c\u4e86!",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who built it ? EOS",
+        "reference": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he got angry . EOS",
+        "reference": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she UNK him . EOS",
+        "reference": "\u5979\u770b\u4e0d\u8d77\u4ed6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i hate mosquitoes . EOS",
+        "reference": "\u6211\u6068\u868a\u5b50\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.06620821446395991,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he acts quickly . EOS",
+        "reference": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are they students ? EOS",
+        "reference": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do you understand ? EOS",
+        "reference": "\u4f60\u660e\u767d\u4e86\u5417?",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS knowledge is power . EOS",
+        "reference": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what should i bring ? EOS",
+        "reference": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is no fool . EOS",
+        "reference": "\u4ed6\u6ca1\u75af\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she went there yesterday . EOS",
+        "reference": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he climbed the stairs . EOS",
+        "reference": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i just heard something . EOS",
+        "reference": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u4e00\u4e9b\u6d88\u606f\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.03869144428007035,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i am from UNK . EOS",
+        "reference": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.05629571924668087,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you broke the rules . EOS",
+        "reference": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u5b50\u95f9\u9b3c\u3002",
+        "bleu_score": 0.04266417714290623,
+        "exact_match": 0
+      }
+    ],
+    "bleu_scores": [
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.05629571924668087,
+      0,
+      0,
+      0,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.13056803245857712,
+      0.030132927103482417,
+      0.04266417714290623,
+      0.13056803245857712,
+      0.05629571924668087,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.13056803245857712,
+      0.05629571924668087,
+      0,
+      0.04266417714290623,
+      0,
+      0.05629571924668087,
+      0.05629571924668087,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.05629571924668087,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.05629571924668087,
+      0.04266417714290623,
+      0.05629571924668087,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.05629571924668087,
+      0.05629571924668087,
+      0.13056803245857712,
+      0.05629571924668087,
+      0.05629571924668087,
+      0.06620821446395991,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.05629571924668087,
+      0.05629571924668087,
+      0.03765100417993525,
+      0.05629571924668087,
+      0,
+      0.05629571924668087,
+      0,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.06620821446395991,
+      0.04266417714290623,
+      0.04266417714290623,
+      0,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.04266417714290623,
+      0.03869144428007035,
+      0.05629571924668087,
+      0.04266417714290623
+    ],
+    "exact_matches": 0,
+    "total_samples": 100,
+    "experiment_name": "no_residual_connection",
+    "avg_bleu": 0.04107385081522039,
+    "exact_match_rate": 0.0
+  },
+  "no_layer_norm": {
+    "train_losses": [
+      0.0049521569561822324,
+      0.0038637190315123702,
+      0.003455226443940639,
+      0.003117453408285003,
+      0.0028602459861476258,
+      0.002660830990358011,
+      0.0025134326276499055,
+      0.0023898602433562767,
+      0.0022834407126754667,
+      0.002188490549491672,
+      0.0021035181235696788,
+      0.0020278546075646717,
+      0.0019525066656474357,
+      0.0018835177990434073,
+      0.0018226103257400887,
+      0.0017656239167137744,
+      0.0017073587178075705,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "val_losses": [
+      0.004465114456479557,
+      0.003843756663502835,
+      0.0034423249117006343,
+      0.0030819998887039795,
+      0.0028363346065357386,
+      0.0026509217657775803,
+      0.002496610853247414,
+      0.002359782736135529,
+      0.002238947516917823,
+      0.0021227868949010484,
+      0.0020215947793914097,
+      0.0019098415413084896,
+      0.0018109279552077384,
+      0.001719945491004068,
+      0.001635104709760354,
+      0.0015627765320138517,
+      0.0014888281440112016,
+      NaN,
+      NaN,
+      NaN
+    ],
+    "best_val_loss": 0.0014888281440112016,
+    "samples": [
+      {
+        "source": "BOS UNK ! EOS",
+        "reference": "\u5e72\u676f!",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS listen . EOS",
+        "reference": "\u542c\u7740\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS try it . EOS",
+        "reference": "\u8bd5\u8bd5\u5427\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u4e0d\u53ef\u80fd\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS drive safely . EOS",
+        "reference": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS wood UNK . EOS",
+        "reference": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS be calm . EOS",
+        "reference": "\u51b7\u9759\u70b9\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS thanks UNK . EOS",
+        "reference": "\u8fd8\u662f\u8981\u8bf4\u8c22\u8c22\u7684\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u6ca1\u95e8\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shut up ! EOS",
+        "reference": "\u95ed\u5634\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no problem ! EOS",
+        "reference": "\u6ca1\u95ee\u9898\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS come along . EOS",
+        "reference": "\u5feb\u70b9\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS why not ? EOS",
+        "reference": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS move quietly . EOS",
+        "reference": "\u8f7b\u8f7b\u5730\u79fb\u52a8\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody asked . EOS",
+        "reference": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS someone called . EOS",
+        "reference": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS many thanks . EOS",
+        "reference": "\u975e\u5e38\u611f\u8c22\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop reading . EOS",
+        "reference": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get real . EOS",
+        "reference": "\u9192\u9192\u5427\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u50bb\u770b\u7740\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS feel this . EOS",
+        "reference": "\u6765\u611f\u53d7\u4e00\u4e0b\u8fd9\u4e2a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.04657018848625064,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everybody lies . EOS",
+        "reference": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS get down ! EOS",
+        "reference": "\u8db4\u4e0b\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS god exists . EOS",
+        "reference": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we know . EOS",
+        "reference": "\u6211\u4eec\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.08706106407937281,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she felt blue . EOS",
+        "reference": "\u5979\u611f\u5230UNKUNK\u4e0d\u4e50\u7684\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.03643177115176444,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS how are you ? EOS",
+        "reference": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS clean your room . EOS",
+        "reference": "\u6e05\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.17027443510011842,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let me think . EOS",
+        "reference": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.04657018848625064,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS the phone rang . EOS",
+        "reference": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS can anyone drive ? EOS",
+        "reference": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS jesus loves you . EOS",
+        "reference": "\u8036\u7a23\u7231\u4f60\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom UNK approval . EOS",
+        "reference": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS enjoy your holidays . EOS",
+        "reference": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one came . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you must choose . EOS",
+        "reference": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are you ready ? EOS",
+        "reference": "\u60a8\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was full . EOS",
+        "reference": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is poor . EOS",
+        "reference": "\u4ed6\u5f88\u7a77\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she turned eighty-one . EOS",
+        "reference": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS keep the change ! EOS",
+        "reference": "\u4e0d\u7528\u627e\u96f6\u94b1\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're UNK . EOS",
+        "reference": "\u6211\u4eec\u5f88\u4fdd\u5b88\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.08706106407937281,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm ill . EOS",
+        "reference": "\u6211\u751f\u75c5\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is tom well ? EOS",
+        "reference": "\u6c64\u59c6\u8fd8\u597d\u5427\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he just arrived . EOS",
+        "reference": "\u4ed6\u521a\u5230\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS is everybody ready ? EOS",
+        "reference": "\u6240\u6709\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i often hiccup . EOS",
+        "reference": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she likes oranges . EOS",
+        "reference": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody was injured . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who likes beans ? EOS",
+        "reference": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom runs fast . EOS",
+        "reference": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS they want more . EOS",
+        "reference": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was bullied . EOS",
+        "reference": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's life . EOS",
+        "reference": "\u8fd9\u5c31\u662f\u751f\u6d3b\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS see you around . EOS",
+        "reference": "\u518d\u89c1\uff01",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS now i remember . EOS",
+        "reference": "\u73b0\u5728\u6211\u60f3\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she hated him . EOS",
+        "reference": "\u5979\u6068\u4ed6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tell me again . EOS",
+        "reference": "\u91cd\u65b0\u544a\u8bc9\u6211\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom follows orders . EOS",
+        "reference": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do it now . EOS",
+        "reference": "\u73b0\u5728\u5c31\u505a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS foxes eat UNK . EOS",
+        "reference": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i almost won . EOS",
+        "reference": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shake my hand . EOS",
+        "reference": "\u548c\u6211\u63e1\u624b\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're hiding . EOS",
+        "reference": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.08706106407937281,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm italian . EOS",
+        "reference": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS they hated tom . EOS",
+        "reference": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm innocent . EOS",
+        "reference": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.04657018848625064,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS prices went up . EOS",
+        "reference": "\u7269\u4ef7\u4e0a\u6da8\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's great . EOS",
+        "reference": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no one knows . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS words express thoughts . EOS",
+        "reference": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do n't cry . EOS",
+        "reference": "\u522b\u54ed\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he wears glasses . EOS",
+        "reference": "\u4ed6\u6234\u773c\u955c\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS the system worked . EOS",
+        "reference": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS take your time . EOS",
+        "reference": "\u4f60\u53ef\u4ee5\u6162\u6162\u6765\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he UNK me . EOS",
+        "reference": "\u4ed6\u5411\u6211\u65bd\u538b\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i know tom . EOS",
+        "reference": "\u6211\u8ba4\u8bc6\u6c64\u59c6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everything went black . EOS",
+        "reference": "\u4e00\u5207\u90fd\u53d8\u6210\u4e86\u9ed1\u8272\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let them decide . EOS",
+        "reference": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are you finished ? EOS",
+        "reference": "\u4f60\u7ed3\u675f\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i feel lonely . EOS",
+        "reference": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS has anything changed ? EOS",
+        "reference": "\u6709\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS every minute UNK . EOS",
+        "reference": "\u5206UNK\u5fc5\u4e89\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what a surprise ! EOS",
+        "reference": "\u592a\u60ca\u559c\u4e86!",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who built it ? EOS",
+        "reference": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he got angry . EOS",
+        "reference": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she UNK him . EOS",
+        "reference": "\u5979\u770b\u4e0d\u8d77\u4ed6\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i hate mosquitoes . EOS",
+        "reference": "\u6211\u6068\u868a\u5b50\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he acts quickly . EOS",
+        "reference": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are they students ? EOS",
+        "reference": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do you understand ? EOS",
+        "reference": "\u4f60\u660e\u767d\u4e86\u5417?",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS knowledge is power . EOS",
+        "reference": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what should i bring ? EOS",
+        "reference": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is no fool . EOS",
+        "reference": "\u4ed6\u6ca1\u75af\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she went there yesterday . EOS",
+        "reference": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he climbed the stairs . EOS",
+        "reference": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i just heard something . EOS",
+        "reference": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u4e00\u4e9b\u6d88\u606f\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.04657018848625064,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i am from UNK . EOS",
+        "reference": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.039597839596083456,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you broke the rules . EOS",
+        "reference": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "translation": "\u6211\u4eec\u7684\u623f\u95f4\u91cc\u6709\u4e00\u4e2a\u5c0f\u5c4b\u3002",
+        "bleu_score": 0.030009550736902552,
+        "exact_match": 0
+      }
+    ],
+    "bleu_scores": [
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0,
+      0,
+      0,
+      0.030009550736902552,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.04657018848625064,
+      0.039597839596083456,
+      0,
+      0.030009550736902552,
+      0.08706106407937281,
+      0.03643177115176444,
+      0.030009550736902552,
+      0.17027443510011842,
+      0.04657018848625064,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0,
+      0.039597839596083456,
+      0.030009550736902552,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.08706106407937281,
+      0.039597839596083456,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.039597839596083456,
+      0,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.030009550736902552,
+      0,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.039597839596083456,
+      0.08706106407937281,
+      0.039597839596083456,
+      0.039597839596083456,
+      0.04657018848625064,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.039597839596083456,
+      0.039597839596083456,
+      0.039597839596083456,
+      0,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.030009550736902552,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.030009550736902552,
+      0,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.030009550736902552,
+      0.039597839596083456,
+      0.030009550736902552,
+      0.04657018848625064,
+      0.039597839596083456,
+      0.030009550736902552
+    ],
+    "exact_matches": 0,
+    "total_samples": 100,
+    "experiment_name": "no_layer_norm",
+    "avg_bleu": 0.03135005390323037,
+    "exact_match_rate": 0.0
+  },
+  "learned_positional_encoding": {
+    "train_losses": [
+      0.004905142027270408,
+      0.003751459078332396,
+      0.003218080255295686,
+      0.0028405232676195946,
+      0.0025366221906827375,
+      0.0022358021387733637,
+      0.001997622664919654,
+      0.0017889052290254964,
+      0.0016541254013015228,
+      0.0014886643421458533,
+      0.0013706479085390615,
+      0.0012698647758703668,
+      0.001167603224787737,
+      0.0010680624806924982,
+      0.0010092414683614407,
+      0.0009298399051453811,
+      0.0008623000305409844,
+      0.0008028690639118827,
+      0.0007502152211369754,
+      0.0006713067306391292
+    ],
+    "val_losses": [
+      0.004344263749935914,
+      0.0035969622079465476,
+      0.0031202033727320555,
+      0.0027543195615728666,
+      0.002396177508908281,
+      0.0020921342428591168,
+      0.0018388651448019602,
+      0.0016528588507948613,
+      0.0014909469311754177,
+      0.0013431884151881319,
+      0.0012453981632864137,
+      0.0010996317749675031,
+      0.0009916947463504396,
+      0.0009043812841603697,
+      0.0008167214263057446,
+      0.0007591923407291353,
+      0.0006790195569055399,
+      0.0006579345058957646,
+      0.0005772332365385284,
+      0.00046143425496131805
+    ],
+    "best_val_loss": 0.00046143425496131805,
+    "samples": [
+      {
+        "source": "BOS UNK ! EOS",
+        "reference": "\u5e72\u676f!",
+        "translation": "\u5b9e\u9645\u4e0a\uff01",
+        "bleu_score": 0,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS listen . EOS",
+        "reference": "\u542c\u7740\u3002",
+        "translation": "\u542c\u3002",
+        "bleu_score": 0.09266933305771967,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS try it . EOS",
+        "reference": "\u8bd5\u8bd5\u5427\u3002",
+        "translation": "\u8bd5\u5427\u3002",
+        "bleu_score": 0.5745391373199252,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u4e0d\u53ef\u80fd\uff01",
+        "translation": "\u6ca1\u6709\uff01",
+        "bleu_score": 0.07553919378694879,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS drive safely . EOS",
+        "reference": "\u5b89\u5168\u5730\u9a7e\u9a76\u3002",
+        "translation": "\u5b89\u5168\u5730\u5f00\u8f66\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS wood UNK . EOS",
+        "reference": "\u6728\u5934\u4f1a\u6f02\u6d6e\u3002",
+        "translation": "\u6728\u5934\u4f1a\u5316\u3002",
+        "bleu_score": 0.37949693437209453,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS be calm . EOS",
+        "reference": "\u51b7\u9759\u70b9\u3002",
+        "translation": "\u51b7\u9759\u4e0b\u6765\u3002",
+        "bleu_score": 0.21727738257913376,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS thanks UNK . EOS",
+        "reference": "\u8fd8\u662f\u8981\u8bf4\u8c22\u8c22\u7684\u3002",
+        "translation": "\u8bf4\u5f97\u4e0d\u9519\u3002",
+        "bleu_score": 0.04760960712753479,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no way ! EOS",
+        "reference": "\u6ca1\u95e8\uff01",
+        "translation": "\u6ca1\u6709\uff01",
+        "bleu_score": 0.13910705966982442,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS shut up ! EOS",
+        "reference": "\u95ed\u5634\uff01",
+        "translation": "\u95ed\u5634\u3002",
+        "bleu_score": 0.33220398201307827,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS no problem ! EOS",
+        "reference": "\u6ca1\u95ee\u9898\uff01",
+        "translation": "\u6ca1\u95ee\u9898\uff01",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS come along . EOS",
+        "reference": "\u5feb\u70b9\u3002",
+        "translation": "\u8fdb\u6765\u3002",
+        "bleu_score": 0.10542343743005167,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS why not ? EOS",
+        "reference": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "translation": "\u4e3a\u4ec0\u4e48\u4e0d\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS move quietly . EOS",
+        "reference": "\u8f7b\u8f7b\u5730\u79fb\u52a8\u3002",
+        "translation": "\u8f7b\u677e\u4e86\u3002",
+        "bleu_score": 0.06664992437812525,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS nobody asked . EOS",
+        "reference": "\u6ca1\u4eba\u95ee\u8fc7\u3002",
+        "translation": "\u6ca1\u4eba\u95ee\u3002",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS someone called . EOS",
+        "reference": "\u6709\u4eba\u6253\u7535\u8bdd\u6765\u3002",
+        "translation": "\u6709\u4eba\u6253\u7535\u8bdd\u7ed9\u4e88\u3002",
+        "bleu_score": 0.5985674423746434,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS many thanks . EOS",
+        "reference": "\u975e\u5e38\u611f\u8c22\uff01",
+        "translation": "\u5f88\u591a\uff0c\u8c22\u3002",
+        "bleu_score": 0.06574447907286406,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop reading . EOS",
+        "reference": "\u522b\u518d\u5ff5\u4e86\u3002",
+        "translation": "\u522b\u518d\u76ef\u7740\u4e86\u3002",
+        "bleu_score": 0.24430833446176173,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "translation": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS get real . EOS",
+        "reference": "\u9192\u9192\u5427\u3002",
+        "translation": "\u9192\u5427\u3002",
+        "bleu_score": 0.5745391373199252,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS stop UNK . EOS",
+        "reference": "\u522b\u518d\u50bb\u770b\u7740\u3002",
+        "translation": "\u522b\u518d\u57cb\u6028\u4e86\u3002",
+        "bleu_score": 0.17686984272214148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS feel this . EOS",
+        "reference": "\u6765\u611f\u53d7\u4e00\u4e0b\u8fd9\u4e2a\u3002",
+        "translation": "\u8fd9\u4e2a\u60f3\u3002",
+        "bleu_score": 0.10588666874092079,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everybody lies . EOS",
+        "reference": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u4f1a\u8bf4\u8c0e\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS get down ! EOS",
+        "reference": "\u8db4\u4e0b\uff01",
+        "translation": "\u8db4\u4e0b\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS god exists . EOS",
+        "reference": "\u4e0a\u5e1d\u5b58\u5728\u3002",
+        "translation": "\u4e0a\u5e1d\u5b58\u5728\u5b58\u5728\u3002",
+        "bleu_score": 0.608338999186301,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we know . EOS",
+        "reference": "\u6211\u4eec\u77e5\u9053\u3002",
+        "translation": "\u6211\u4eec\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she felt blue . EOS",
+        "reference": "\u5979\u611f\u5230UNKUNK\u4e0d\u4e50\u7684\u3002",
+        "translation": "\u5979\u611f\u5230\u84dd\u8272\u7684\u6d88\u606f\u3002",
+        "bleu_score": 0.16278183602654556,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS how are you ? EOS",
+        "reference": "\u4f60\u4eec\u597d\u5417\uff1f",
+        "translation": "\u4f60\u600e\u4e48\u6837\uff1f",
+        "bleu_score": 0.08675036022628713,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS clean your room . EOS",
+        "reference": "\u6e05\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "translation": "\u6253\u626b\u4f60\u7684\u623f\u95f4\u3002",
+        "bleu_score": 0.8271628750638266,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let me think . EOS",
+        "reference": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "translation": "\u8ba9\u6211\u60f3\u4e00\u60f3\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS the phone rang . EOS",
+        "reference": "\u7535\u8bdd\u6b63\u5728\u54cd\u3002",
+        "translation": "\u7535\u8bdd\u54cd\u4e86\u3002",
+        "bleu_score": 0.199586480172148,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS can anyone drive ? EOS",
+        "reference": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "translation": "\u6709\u4eba\u4f1a\u5f00\u8f66\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS jesus loves you . EOS",
+        "reference": "\u8036\u7a23\u7231\u4f60\u3002",
+        "translation": "\u8036\u7a23\u7231\u4f60\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom UNK approval . EOS",
+        "reference": "\u6c64\u59c6\u70b9\u5934\u540c\u610f\u3002",
+        "translation": "\u6c64\u59c6\u4e00\u70b9\u610f\u601d\u3002",
+        "bleu_score": 0.18396586464887196,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS enjoy your holidays . EOS",
+        "reference": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "translation": "\u5ea6\u5047\u6109\u5feb\uff01",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS no one came . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u6765\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS you must choose . EOS",
+        "reference": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "translation": "\u4f60\u5fc5\u987b\u9009\u62e9\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are you ready ? EOS",
+        "reference": "\u60a8\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u4eec\u597d\u4e86\u5417\uff1f",
+        "bleu_score": 0.4816242361516809,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom was full . EOS",
+        "reference": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u9971\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he is poor . EOS",
+        "reference": "\u4ed6\u5f88\u7a77\u3002",
+        "translation": "\u4ed6\u4e0d\u7a77\u3002",
+        "bleu_score": 0.2878298075145074,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she turned eighty-one . EOS",
+        "reference": "\u5979\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "translation": "\u5979\u4e00\u516b\u5341\u4e00\u5c81\u4e86\u3002",
+        "bleu_score": 0.7508646933933458,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS keep the change ! EOS",
+        "reference": "\u4e0d\u7528\u627e\u96f6\u94b1\u4e86\u3002",
+        "translation": "\u4fdd\u6301\u5e72\u4fdd\u7ebf\u3002",
+        "bleu_score": 0.046784047070580634,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS we 're UNK . EOS",
+        "reference": "\u6211\u4eec\u5f88\u4fdd\u5b88\u3002",
+        "translation": "\u6211\u4eec\u662f\u4fdd\u6301\u6c89\u9ed8\u3002",
+        "bleu_score": 0.14649147584768704,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i 'm ill . EOS",
+        "reference": "\u6211\u751f\u75c5\u4e86\u3002",
+        "translation": "\u6211\u751f\u75c5\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS is tom well ? EOS",
+        "reference": "\u6c64\u59c6\u8fd8\u597d\u5427\uff1f",
+        "translation": "\u6c64\u59c6\u8fd8\u597d\u5417\uff1f",
+        "bleu_score": 0.6220921943331938,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he just arrived . EOS",
+        "reference": "\u4ed6\u521a\u5230\u3002",
+        "translation": "\u4ed6\u521a\u5230\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS is everybody ready ? EOS",
+        "reference": "\u6240\u6709\u4eba\u90fd\u51c6\u5907\u597d\u4e86\u5417\uff1f",
+        "translation": "\u6bcf\u4e2a\u4eba\u90fd\u600e\u4e48\u51c6\u5907\u597d\uff1f",
+        "bleu_score": 0.2749273153352304,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i often hiccup . EOS",
+        "reference": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "translation": "\u6211\u7ecf\u5e38\u6253\u55dd\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS she likes oranges . EOS",
+        "reference": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "translation": "\u5979\u559c\u6b22\u6a59\u5b50\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS nobody was injured . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u53d7\u4f24\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS who likes beans ? EOS",
+        "reference": "\u8c01\u559c\u6b22\u8c46\u5b50\uff1f",
+        "translation": "\u8c01\u559c\u6b22\u7528\uff1f",
+        "bleu_score": 0.37949693437209453,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom runs fast . EOS",
+        "reference": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "translation": "\u6c64\u59c6\u8dd1\u5f97\u5feb\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS they want more . EOS",
+        "reference": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "translation": "\u4ed6\u4eec\u60f3\u8981\u66f4\u591a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tom was bullied . EOS",
+        "reference": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "translation": "\u6c64\u59c6\u88ab\u6b3a\u8d1f\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS that 's life . EOS",
+        "reference": "\u8fd9\u5c31\u662f\u751f\u6d3b\u3002",
+        "translation": "\u8fd9\u5c31\u662f\u751f\u547d\u3002",
+        "bleu_score": 0.6220921943331938,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS see you around . EOS",
+        "reference": "\u518d\u89c1\uff01",
+        "translation": "\u518d\u89c1\uff01",
+        "bleu_score": 0.8018339587419306,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS now i remember . EOS",
+        "reference": "\u73b0\u5728\u6211\u60f3\u8d77\u6765\u4e86\u3002",
+        "translation": "\u6211\u73b0\u5728\u8bb0\u5f97\u4e0d\u8d77\u3002",
+        "bleu_score": 0.16016822384783874,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she hated him . EOS",
+        "reference": "\u5979\u6068\u4ed6\u3002",
+        "translation": "\u5979\u6068\u4ed6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS tell me again . EOS",
+        "reference": "\u91cd\u65b0\u544a\u8bc9\u6211\u3002",
+        "translation": "\u544a\u8bc9\u6211\u518d\u6765\u4e00\u6b21\u3002",
+        "bleu_score": 0.26462752166987974,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS tom follows orders . EOS",
+        "reference": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "translation": "\u6c64\u59c6\u670d\u4ece\u547d\u4ee4\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do it now . EOS",
+        "reference": "\u73b0\u5728\u5c31\u505a\u3002",
+        "translation": "\u73b0\u5728\u5c31\u505a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS foxes eat UNK . EOS",
+        "reference": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "translation": "\u72d0\u72f8\u5403\u6bcd\u9e21\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i almost won . EOS",
+        "reference": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "translation": "\u6211\u51e0\u4e4e\u8d62\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS shake my hand . EOS",
+        "reference": "\u548c\u6211\u63e1\u624b\u3002",
+        "translation": "\u548c\u6211\u63e1\u624b\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS we 're hiding . EOS",
+        "reference": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "translation": "\u6211\u4eec\u5728\u85cf\u7740\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm italian . EOS",
+        "reference": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "translation": "\u6211\u662f\u4e49\u5927\u5229\u4eba\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS they hated tom . EOS",
+        "reference": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "translation": "\u4ed6\u4eec\u6068\u6c64\u59c6\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i 'm innocent . EOS",
+        "reference": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "translation": "\u6211\u662f\u6e05\u767d\u7684\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS prices went up . EOS",
+        "reference": "\u7269\u4ef7\u4e0a\u6da8\u3002",
+        "translation": "\u4ef7\u683c\u98de\u3002",
+        "bleu_score": 0.08558019692182874,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS that 's great . EOS",
+        "reference": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "translation": "\u90a3\u771f\u662f\u592a\u597d\u4e86\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS no one knows . EOS",
+        "reference": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "translation": "\u6ca1\u6709\u4eba\u77e5\u9053\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS words express thoughts . EOS",
+        "reference": "\u8bed\u8a00\u8868\u8fbe\u601d\u60f3\u3002",
+        "translation": "\u8bed\u8a00\u662f\u77e5\u9053\u786e\u7684\u3002",
+        "bleu_score": 0.13056803245857712,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS do n't cry . EOS",
+        "reference": "\u522b\u54ed\u3002",
+        "translation": "\u4e0d\u8981\u54ed\u3002",
+        "bleu_score": 0.24473679234293869,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he wears glasses . EOS",
+        "reference": "\u4ed6\u6234\u773c\u955c\u3002",
+        "translation": "\u4ed6\u6234\u773c\u955c\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS the system worked . EOS",
+        "reference": "\u7cfb\u7edf\u8fd0\u884c\u8d77\u6765\u4e86\u3002",
+        "translation": "\u8fd9\u573a\u8d27\u8239\u8239\u88ab\u6467\u6bc1\u4e86\u3002",
+        "bleu_score": 0.08862844938172759,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS take your time . EOS",
+        "reference": "\u4f60\u53ef\u4ee5\u6162\u6162\u6765\u3002",
+        "translation": "\u4f60\u7684\u65f6\u95f4\u5c31\u8981\u82b1\u4e86\u3002",
+        "bleu_score": 0.05077687111622362,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he UNK me . EOS",
+        "reference": "\u4ed6\u5411\u6211\u65bd\u538b\u3002",
+        "translation": "\u4ed6\u5bf9\u6211\u6765\u8bf4\u662f\u56f0\u96be\u3002",
+        "bleu_score": 0.059717612949229594,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i know tom . EOS",
+        "reference": "\u6211\u8ba4\u8bc6\u6c64\u59c6\u3002",
+        "translation": "\u6211\u77e5\u9053\u6c64\u59c6\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS everything went black . EOS",
+        "reference": "\u4e00\u5207\u90fd\u53d8\u6210\u4e86\u9ed1\u8272\u3002",
+        "translation": "\u4e00\u5207\u90fd\u3002",
+        "bleu_score": 0.18125252544658652,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS let them decide . EOS",
+        "reference": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "translation": "\u8ba9\u4ed6\u4eec\u51b3\u5b9a\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS are you finished ? EOS",
+        "reference": "\u4f60\u7ed3\u675f\u4e86\u5417\uff1f",
+        "translation": "\u4f60\u5b8c\u6210\u4e86\u5417\uff1f",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i feel lonely . EOS",
+        "reference": "\u6211\u89c9\u5f97\u5f88\u5b64\u72ec\u3002",
+        "translation": "\u6211\u89c9\u5f97\u5f88\u5bc2\u5bde\u3002",
+        "bleu_score": 0.5145715680194094,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS has anything changed ? EOS",
+        "reference": "\u6709\u4efb\u4f55\u4e8b\u60c5\u6539\u53d8\u4e86\u5417\uff1f",
+        "translation": "\u4efb\u4f55\u4e8b\u6545\u53d1\u751f\u4e86\u5417\uff1f",
+        "bleu_score": 0.34558769147690316,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS every minute UNK . EOS",
+        "reference": "\u5206UNK\u5fc5\u4e89\u3002",
+        "translation": "\u5206\u62b1\u6b49\u3002",
+        "bleu_score": 0.05190701329733386,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what a surprise ! EOS",
+        "reference": "\u592a\u60ca\u559c\u4e86!",
+        "translation": "\u60ca\u559c\u4e86\u3002",
+        "bleu_score": 0.4391400567870498,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS who built it ? EOS",
+        "reference": "\u8fd9\u662f\u8c01\u5efa\u7684\uff1f",
+        "translation": "\u8fd9\u662f\u8c01\u7684\uff1f",
+        "bleu_score": 0.468597162924526,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he got angry . EOS",
+        "reference": "\u4ed6\u751f\u6c14\u4e86\u3002",
+        "translation": "\u4ed6\u751f\u6c14\u3002",
+        "bleu_score": 0.4926954462837668,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she UNK him . EOS",
+        "reference": "\u5979\u770b\u4e0d\u8d77\u4ed6\u3002",
+        "translation": "\u5979\u5f88\u5f3a\u58ee\u3002",
+        "bleu_score": 0.07102518775785427,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i hate mosquitoes . EOS",
+        "reference": "\u6211\u6068\u868a\u5b50\u3002",
+        "translation": "\u6211\u6068\u868a\u5b50\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS he acts quickly . EOS",
+        "reference": "\u4ed6\u884c\u52a8\u8fc5\u901f\u3002",
+        "translation": "\u4ed6\u884c\u52a8\u7269\u884c\u3002",
+        "bleu_score": 0.3693051303535175,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS are they students ? EOS",
+        "reference": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "translation": "\u4ed6\u4eec\u662f\u5b66\u751f\u5417\uff1f",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS do you understand ? EOS",
+        "reference": "\u4f60\u660e\u767d\u4e86\u5417?",
+        "translation": "\u4f60\u660e\u767d\u4e86\u5417\uff1f",
+        "bleu_score": 0.788238465735608,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS knowledge is power . EOS",
+        "reference": "\u77e5\u8bc6\u5c31\u662f\u529b\u91cf\u3002",
+        "translation": "\u77e5\u9053\u5c31\u662f\u529b\u91cf\u529b\u91cf\u3002",
+        "bleu_score": 0.48735341720658065,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS what should i bring ? EOS",
+        "reference": "\u6211\u8be5\u5e26\u4e9b\u4ec0\u4e48\uff1f",
+        "translation": "\u6211\u8be5\u53eb\u4ec0\u4e48\uff1f",
+        "bleu_score": 0.3860062264970731,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he is no fool . EOS",
+        "reference": "\u4ed6\u6ca1\u75af\u3002",
+        "translation": "\u4ed6\u6ca1\u6709\u5bb3\u3002",
+        "bleu_score": 0.21727738257913376,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS she went there yesterday . EOS",
+        "reference": "\u5979\u6628\u5929\u53bb\u90a3\u91cc\u3002",
+        "translation": "\u5979\u6628\u5929\u53bb\u4e86\u3002",
+        "bleu_score": 0.526589673700149,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS he climbed the stairs . EOS",
+        "reference": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "translation": "\u4ed6\u722c\u4e0a\u4e86\u697c\u68af\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      },
+      {
+        "source": "BOS i just heard something . EOS",
+        "reference": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u4e00\u4e9b\u6d88\u606f\u3002",
+        "translation": "\u6211\u53ea\u662f\u542c\u5230\u4e86\u3002",
+        "bleu_score": 0.49682275017929184,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS i am from UNK . EOS",
+        "reference": "\u6211\u6765\u81ea\u56db\u56fd\u3002",
+        "translation": "\u6211\u662f\u4ece\u6765\u81ea\u56db\u56fd\u7684\u3002",
+        "bleu_score": 0.4122343173905376,
+        "exact_match": 0
+      },
+      {
+        "source": "BOS you broke the rules . EOS",
+        "reference": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "translation": "\u4f60\u89e6\u72af\u4e86\u89c4\u5219\u3002",
+        "bleu_score": 1.0,
+        "exact_match": 1
+      }
+    ],
+    "bleu_scores": [
+      0,
+      0.09266933305771967,
+      0.5745391373199252,
+      0.07553919378694879,
+      0.3693051303535175,
+      0.37949693437209453,
+      0.21727738257913376,
+      0.04760960712753479,
+      0.13910705966982442,
+      0.33220398201307827,
+      1.0,
+      0.10542343743005167,
+      1.0,
+      0.06664992437812525,
+      0.4926954462837668,
+      0.5985674423746434,
+      0.06574447907286406,
+      0.24430833446176173,
+      1.0,
+      0.5745391373199252,
+      0.17686984272214148,
+      0.10588666874092079,
+      1.0,
+      0.8018339587419306,
+      0.608338999186301,
+      1.0,
+      0.16278183602654556,
+      0.08675036022628713,
+      0.8271628750638266,
+      1.0,
+      0.199586480172148,
+      1.0,
+      1.0,
+      0.18396586464887196,
+      1.0,
+      1.0,
+      1.0,
+      0.4816242361516809,
+      1.0,
+      0.2878298075145074,
+      0.7508646933933458,
+      0.046784047070580634,
+      0.14649147584768704,
+      1.0,
+      0.6220921943331938,
+      1.0,
+      0.2749273153352304,
+      1.0,
+      1.0,
+      1.0,
+      0.37949693437209453,
+      1.0,
+      1.0,
+      1.0,
+      0.6220921943331938,
+      0.8018339587419306,
+      0.16016822384783874,
+      1.0,
+      0.26462752166987974,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.08558019692182874,
+      1.0,
+      1.0,
+      0.13056803245857712,
+      0.24473679234293869,
+      1.0,
+      0.08862844938172759,
+      0.05077687111622362,
+      0.059717612949229594,
+      0.3693051303535175,
+      0.18125252544658652,
+      1.0,
+      0.3693051303535175,
+      0.5145715680194094,
+      0.34558769147690316,
+      0.05190701329733386,
+      0.4391400567870498,
+      0.468597162924526,
+      0.4926954462837668,
+      0.07102518775785427,
+      1.0,
+      0.3693051303535175,
+      1.0,
+      0.788238465735608,
+      0.48735341720658065,
+      0.3860062264970731,
+      0.21727738257913376,
+      0.526589673700149,
+      1.0,
+      0.49682275017929184,
+      0.4122343173905376,
+      1.0
+    ],
+    "exact_matches": 40,
+    "total_samples": 100,
+    "experiment_name": "learned_positional_encoding",
+    "avg_bleu": 0.5801490768125392,
+    "exact_match_rate": 0.4
+  }
+}
