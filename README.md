@@ -44,7 +44,7 @@ transformer -main/\
 ├── Complete_images/           # 完整模型训练可视化图表\
 ├── Complete_results/        # 完整模型训练详细结果\
 ├── dataset/                 # 训练和测试数据目录\
-├── save/                    # 模型保存目录\
+├── save/                    # 模型保存目录（由于预训练文件较大并未上传，运行任意一个代码就能在这个文件夹得到保存好的模型）\
 ├── AblationExperiment.py    # 消融实验代码\
 ├── Final_Transformer.py     # 主模型训练代码\
 ├── langconv.py              # 中文简繁转换工具\
